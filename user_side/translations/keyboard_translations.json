@@ -1,0 +1,108 @@
+{
+  "menu": {
+    "start_test": {
+      "uzbek": "Testni Boshlash",
+      "english": "Start Test",
+      "russian": "Начать тест"
+    },
+    "history": {
+      "uzbek": "Tarix",
+      "english": "History",
+      "russian": "История"
+    }
+  },
+  "relationship": {
+    "father": {
+      "uzbek": "Otasi",
+      "english": "Father",
+      "russian": "Отец"
+    },
+    "mother": {
+      "uzbek": "Onasi",
+      "english": "Mother",
+      "russian": "Мать"
+    },
+    "other": {
+      "uzbek": "Boshqa",
+      "english": "Other",
+      "russian": "Другое"
+    },
+    "back_to_main": {
+      "uzbek": "Bosh sahifaga qaytish",
+      "english": "Back to Main",
+      "russian": "Вернуться на главную"
+    }
+  },
+  "months": {
+    "1_month": {
+      "uzbek": "1 oylik",
+      "english": "1 month",
+      "russian": "1 месяц"
+    },
+    "2_month": {
+      "uzbek": "2 oylik",
+      "english": "2 months",
+      "russian": "2 месяца"
+    },
+    "3_month": {
+      "uzbek": "3 oylik",
+      "english": "3 months",
+      "russian": "3 месяца"
+    },
+    "4_month": {
+      "uzbek": "4 oylik",
+      "english": "4 months",
+      "russian": "4 месяца"
+    },
+    "5_month": {
+      "uzbek": "5 oylik",
+      "english": "5 months",
+      "russian": "5 месяцев"
+    },
+    "6_month": {
+      "uzbek": "6 oylik",
+      "english": "6 months",
+      "russian": "6 месяцев"
+    },
+    "7_month": {
+      "uzbek": "7 oylik",
+      "english": "7 months",
+      "russian": "7 месяцев"
+    },
+    "8_month": {
+      "uzbek": "8 oylik",
+      "english": "8 months",
+      "russian": "8 месяцев"
+    },
+    "9_month": {
+      "uzbek": "9 oylik",
+      "english": "9 months",
+      "russian": "9 месяцев"
+    },
+    "10_month": {
+      "uzbek": "10 oylik",
+      "english": "10 months",
+      "russian": "10 месяцев"
+    },
+    "11_month": {
+      "uzbek": "11 oylik",
+      "english": "11 months",
+      "russian": "11 месяцев"
+    },
+    "12_month": {
+      "uzbek": "12 oylik",
+      "english": "12 months",
+      "russian": "12 месяцев"
+    },
+    "back": {
+      "uzbek": "Ortga",
+      "english": "Back",
+      "russian": "Назад"
+    },
+    "back_to_main": {
+      "uzbek": "Bosh sahifaga qaytish",
+      "english": "Back to Main",
+      "russian": "Вернуться на главную"
+    }
+  }
+}

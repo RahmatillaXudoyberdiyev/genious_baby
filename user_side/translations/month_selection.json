@@ -1,0 +1,12 @@
+{
+  "choose_month_prompt": {
+    "uzbek": "Bolangizning hozirgi vaqtdagi yoshi (oylarda)",
+    "english": "Your child's current age (in months)",
+    "russian": "Текущий возраст вашего ребенка (в месяцах)"
+  },
+  "invalid_choice_error": {
+    "uzbek": "Iltimos mavjud tanlovlardan birini tanlang!!!",
+    "english": "Please select one of the available options!!!",
+    "russian": "Пожалуйста, выберите один из доступных вариантов!!!"
+  }
+}
