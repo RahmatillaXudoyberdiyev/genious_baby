@@ -1,5 +1,5 @@
-from aiogram import Bot, types,F
-from user_side import keyboard
+from aiogram import Bot, types
+from user_side.keyboards import keyboard
 from aiogram.fsm.context import FSMContext
 from user_side.states.state import ProcessState
 
