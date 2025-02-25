@@ -10,9 +10,11 @@ async def start_command_answer(message : types.Message, bot : Bot, state : FSMCo
 
 async def language_command_answer(message : types.Message, bot : Bot, state : FSMContext):
     data1 = await state.get_data()
+
+    await state.update_data(language = message.text[3:].lower())
     if message.text == '🇷🇺 Ru': language = 'russian'
-    elif message.text == '🇺🇸 Eng': language = 'english'
-    elif message.text == '🇺🇿 Uz': language = 'uzbek' 
+    elif message.text == '🇺🇸 En': language = 'english'
+    elif message.text == '🇺🇿 Uz': language = 'uzbek'
     else:
         if curr_language:=data1.get("current_language"): language = curr_language 
         else: language = 'uzbek'

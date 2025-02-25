@@ -9,7 +9,7 @@ with open("./user_side/data/questions_data.json", "r", encoding="utf-8") as file
     quiz_data = json.load(file)
 
 async def start_quiz(message: types.Message, state: FSMContext):
-    await state.set_state(ProcessState.answering)
+    # await state.set_state(ProcessState.answering)
     chosen_month = int(message.text.split()[0])
     print(chosen_month)
     await state.update_data(chosen_month = chosen_month, score=0, current_index=0)
@@ -19,7 +19,7 @@ async def send_question(message: types.Message, state: FSMContext):
     data = await state.get_data()
     index = data["current_index"]
     chosen_month = data["chosen_month"]
-    language = data.get("language")
+    language = data['language']
 
     print(chosen_month)
     print(quiz_data)
@@ -55,7 +55,7 @@ async def show_result(message: types.Message, state: FSMContext):
     data = await state.get_data()
     score = data["score"]
     chosen_month = data["chosen_month"]
-    language = data.get("language")
+    language : str = data.get("language")
 
     evaluations = quiz_data[chosen_month]["evaluation"]
 
@@ -64,11 +64,11 @@ async def show_result(message: types.Message, state: FSMContext):
         min_score = eval_range["min_score"]
         max_score = eval_range["max_score"]
         if min_score <= score <= max_score:
-            result_text = eval_range["result"][language]
+            result_text = eval_range["result"][language.lower()]
             break
 
     if not result_text:  
         result_text = "Natija topilmadi / Result not found / Результат не найден"
 
     await message.answer(f"Test yakunlandi!\nJami ball: {score}\n\nNatija: {result_text}")
-    await state.clear()
+    await state.set_state(ProcessState.user_choose_month)

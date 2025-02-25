@@ -6,7 +6,7 @@ def get_languages_keyboard():
         keyboard=[
             [
                 KeyboardButton(text="🇺🇿 Uz"),
-                KeyboardButton(text="🇺🇸 Eng"),
+                KeyboardButton(text="🇺🇸 En"),
                 KeyboardButton(text="🇷🇺 Ru")
             ]
         ],

@@ -7,6 +7,7 @@ from user_side.functions.quiz_section import start_quiz, check_answer
 from config import ADMIN_IDS
 from user_side.states.state import ProcessState
 from aiogram import F
+from operator import or_
 router = Router()
 
 
@@ -28,4 +29,4 @@ router.message.register(choosing_month, ProcessState.user_relation_to_baby)
 router.message.register(relationship_to_baby, F.text.in_(BACK_VARIANTS), ProcessState.user_choose_month)
 router.message.register(language_command_answer, F.text.in_(BACK_TO_MAIN_VARIANTS), ProcessState.user_choose_month)
 router.message.register(start_quiz, F.text.in_(MONTH_VARIANTS), ProcessState.user_choose_month)
-router.callback_query.register(check_answer, ProcessState.answering)
+router.callback_query.register(check_answer, ProcessState.user_choose_month)
