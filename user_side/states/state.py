@@ -5,3 +5,4 @@ class ProcessState(StatesGroup):
     user_language_chose_menu = State()
     user_relation_to_baby = State()
     user_choose_month = State()
+    answering = State()

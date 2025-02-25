@@ -1,0 +1,2384 @@
+[
+ 
+    {"month": 1,
+    "questions": [
+      {
+        "id": "G",
+        "question": {
+          "uz": "Bola koʻkrakni yoki soʻrgʻichni faol soʻryaptimi?",
+          "en": "Is the baby actively sucking the breast or pacifier?",
+          "ru": "Ребёнок активно сосёт грудь или пустышку?"
+        },
+        "answers": {
+          "G1": { "uz": "Xa. Doim faol", "en": "Yes. Always active", "ru": "Да. Всегда активно", "score": 1 },
+          "G2": { "uz": "Bola faol soʻradi, lekin tez charchab qoladi", "en": "The baby sucks actively but gets tired quickly", "ru": "Ребёнок сосёт активно, но быстро устаёт", "score": 2 },
+          "G3": { "uz": "Bola juda sust soʻradi", "en": "The baby sucks very weakly", "ru": "Ребёнок сосёт очень слабо", "score": 3 }
+        }
+      },
+      {
+        "id": "N",
+        "question": {
+          "uz": "Bolani qorni bilan yotqizing u boshini koʻtara oldimi?",
+          "en": "Lay the baby on their stomach. Can they lift their head?",
+          "ru": "Положите ребёнка на живот. Может ли он поднять голову?"
+        },
+        "answers": {
+          "N1": { "uz": "Xa, lekin qisqa muddatli.", "en": "Yes, but for a short time.", "ru": "Да, но на короткое время.", "score": 1 },
+          "N2": { "uz": "Yoʻq, umuman koʻtarmaydi", "en": "No, they cannot lift it at all", "ru": "Нет, вообще не поднимает", "score": 2 }
+        }
+      },
+      {
+        "id": "V",
+        "question": {
+          "uz": "Bolaning uyqu va uygʻoqlik davri qanday?",
+          "en": "How is the baby's sleep and wakefulness cycle?",
+          "ru": "Каков режим сна и бодрствования ребёнка?"
+        },
+        "answers": {
+          "V1": { "uz": "Bola och qolganda va tagi hoʻl boʻlsa uygʻonadi, oson uxlaydi.", "en": "The baby wakes up when hungry or wet and sleeps easily.", "ru": "Ребёнок просыпается, когда голоден или мокрый, и легко засыпает.", "score": 1 },
+          "V2": { "uz": "Bola bezovta, uygʻonishi qiyin va qorni toʻq boʻlsa ham uxlay olmaydi, chinqirib yigʻlaydi.", "en": "The baby is restless, has difficulty waking up, and cries even when full.", "ru": "Ребёнок беспокоен, трудно просыпается и плачет, даже если сыт.", "score": 2 },
+          "V3": { "uz": "Bolaning uyqusi kam, uxlashi qiyin, besabab yigʻlaydi.", "en": "The baby sleeps little, has trouble sleeping, and cries without reason.", "ru": "Ребёнок мало спит, трудно засыпает и плачет без причины.", "score": 3 }
+        }
+      },
+      {
+        "id": "S",
+        "question": {
+          "uz": "Bolaning yigʻisini izohlashga harakat qiling:",
+          "en": "Try to describe the baby's crying:",
+          "ru": "Попробуйте описать плач ребёнка:"
+        },
+        "answers": {
+          "S1": { "uz": "Yigʻisi baland, tiniq, qisqa nafas olib, uzun nafas chiqarib yigʻlaydi", "en": "Loud, clear crying with short inhalations and long exhalations.", "ru": "Громкий, чистый плач с коротким вдохом и длинным выдохом.", "score": 1 },
+          "S2": { "uz": "Yigʻi ogʻriqli, gʻingshigan, nafas olishda chinqirish qoʻshilgan.", "en": "Painful crying, whimpering with shrieks during breathing.", "ru": "Болезненный плач, нытьё с визгами при дыхании.", "score": 2 },
+          "S3": { "uz": "Yigʻi juda sust, yuz ifodasi tund, nafas chiqarishda past chinirish qoʻshilgan.", "en": "Very weak crying, blank facial expression, low-pitched whimpering.", "ru": "Очень слабый плач, безразличное выражение лица, низкий стон.", "score": 3 }
+        }
+      },
+      {
+        "id": "D",
+        "question": {
+          "uz": "Bolaning yotgandagi holatiga baho bering, mushaklarini ushlab koʻring:",
+          "en": "Evaluate the baby's posture while lying down and check muscle tone:",
+          "ru": "Оцените положение ребёнка лёжа и проверьте тонус мышц:"
+        },
+        "answers": {
+          "D1": { "uz": "Bolaning oyoq qoʻllari bir hil bukilgan, bolaning harakatlariga mushak tarangligi xalaqit bermaydi", "en": "The baby's arms and legs are evenly bent, muscle tone does not interfere with movements.", "ru": "Руки и ноги ребёнка согнуты равномерно, тонус мышц не мешает движениям.", "score": 1 },
+          "D2": { "uz": "Bolaning oyoq qoʻllari turli hil bukilgan, bolaning harakatlariga mushak tarangligi xalaqit beradi", "en": "The baby's limbs are unevenly bent, muscle tension restricts movement.", "ru": "Руки и ноги ребёнка согнуты неравномерно, тонус мышц ограничивает движения.", "score": 2 },
+          "D3": { "uz": "Bolaning oyoq –qoʻllarining mushaklari juda boʻsh, bolaning holati “baqa holatida”", "en": "The baby's muscles are very loose, the body is in a 'frog-like' position.", "ru": "Мышцы ребёнка очень вялые, тело в позе 'лягушки'.", "score": 3 }
+        }
+      },
+      {
+        "id": "E",
+        "question": {
+          "uz": "Bolaning koʻzlariga tikilib qarang, uning nigohini baholang.",
+          "en": "Look into the baby's eyes and assess their gaze.",
+          "ru": "Посмотрите в глаза ребёнка и оцените его взгляд."
+        },
+        "answers": {
+          "E1": { "uz": "Bola uzoqdagi narsalarni kuzatadi, keskin yorugʻlikka koʻzini yumadi", "en": "The baby follows distant objects and does not close eyes in bright light.", "ru": "Ребёнок следит за дальними объектами, не зажмуривается на яркий свет.", "score": 1 },
+          "E2": { "uz": "Bola uzoqdagi narsalarni kuzatmaydi, lekin keskin yorugʻlikka koʻzini yumadi", "en": "The baby does not follow distant objects but closes eyes in bright light.", "ru": "Ребёнок не следит за дальними объектами, но зажмуривается на яркий свет.", "score": 2 },
+          "E3": { "uz": "Bolaning nigohlari befarq", "en": "The baby's gaze is indifferent.", "ru": "Взгляд ребёнка безразличный.", "score": 3 }
+        }
+      },
+      {
+        "id": "J",
+        "question": {
+          "uz": "Bolaning eshitishini baholang. U sizningcha ovozlarni eshityaptimi?",
+          "en": "Assess the baby's hearing. Do they respond to sounds?",
+          "ru": "Оцените слух ребёнка. Реагирует ли он на звуки?"
+        },
+        "answers": {
+          "J1": { "uz": "Bola qattiq tovushlarga choʻchib ketadi, kattalar ovoziga qarab yigʻi ohangi oʻzgaradi.", "en": "The baby startles at loud sounds and changes crying tone when hearing voices.", "ru": "Ребёнок пугается громких звуков, меняет тон плача при голосах.", "score": 1 },
+          "J2": { "uz": "Bola qattiq tovushlarga choʻchib ketadi, kattalar ovoziga qarab yigʻi ohangi oʻzgarmaydi.", "en": "The baby startles at loud sounds but does not change crying tone.", "ru": "Ребёнок пугается громких звуков, но тон плача не меняется.", "score": 2 },
+          "J3": { "uz": "Bolaga qattiq tovushlar va kattalar ovoziga umuman ta'sirlanmaydi.", "en": "The baby does not react to loud sounds or voices.", "ru": "Ребёнок не реагирует на громкие звуки и голоса.", "score": 3 }
+        }
+      },
+      {
+        "id": "O",
+        "question": {
+          "uz": "Bolada noodatiy harakatlar kuzatilyaptimi?",
+          "en": "Are any unusual movements observed in the baby?",
+          "ru": "Наблюдаются ли у ребёнка необычные движения?"
+        },
+        "answers": {
+          "O1": { "uz": "Bolada noodatiy harakatlar yoʻq.", "en": "No unusual movements.", "ru": "Необычных движений нет.", "score": 1 },
+          "O2": { "uz": "Bola yigʻlaganda lab, iyak va barmoqlari titraydi.", "en": "The baby's lips, chin, and fingers tremble when crying.", "ru": "При плаче у ребёнка дрожат губы, подбородок и пальцы.", "score": 2 },
+          "O3": { "uz": "Bola tinch turganda ham lab, iyak va barmoqlari titraydi, bolada keskin choʻchib ketishlar bor.", "en": "The baby's lips, chin, and fingers tremble even at rest, with sudden startles.", "ru": "Губы, подбородок и пальцы дрожат даже в покое, наблюдаются резкие вздрагивания.", "score": 3 }
+        }
+      }
+  
+    ],
+    "evaluation": [
+      {
+        "min_score": 24,
+        "max_score": 24,
+        "result": {
+          "uz": "Sizning bolangizda psixomotor muammolar kuzatilmadi. Bolani yaxshilab parvarishlashda davom eting, bolada qaysidir muammolarni sezsangiz darhol pediatrga uchrang.",
+          "en": "Your baby has no observed psychomotor issues. Continue proper care, and if you notice any concerns, consult a pediatrician immediately.",
+          "ru": "У вашего ребёнка нет выявленных психомоторных проблем. Продолжайте правильный уход, и если заметите какие-либо проблемы, немедленно обратитесь к педиатру."
+          }
+      },
+      {
+        "min_score": 12,
+        "max_score": 14,
+        "result": {
+          "uz": "Sizning bolangizda turli psixomotor muammolar kuzatilmoqda, zudlik bilan pediatrga uchrang.",
+          "en": "Your baby has some psychomotor issues. Consult a pediatrician immediately.",
+          "ru": "У вашего ребёнка наблюдаются некоторые психомоторные проблемы. Срочно обратитесь к педиатру."
+        }
+      },
+      {
+        "min_score": 0,
+        "max_score": 11,
+        "result": {
+          "uz": "Sizning bolangizda jiddiy bosh miyaga aloqador muammolar kuzatilmoqda, zudlik bilan pediatrga va bolalar nevropatologiga uchrang.",
+          "en": "Your baby has serious neurological issues. Immediately consult a pediatrician and a child neurologist.",
+          "ru": "У вашего ребёнка серьёзные неврологические проблемы. Немедленно обратитесь к педиатру и детскому неврологу."
+        }
+      }
+    ]
+},
+ 
+  {
+    "month": 2,
+    "questions": [
+      {
+        "id": "A",
+        "question": {
+          "uz": "Bolaning uyqu va uygʻoqlik davri qanday?",
+          "en": "How is the baby's sleep and wakefulness cycle?",
+          "ru": "Каков режим сна и бодрствования ребёнка?"
+        },
+        "answers": {
+          "A1": { "uz": "Bolaning uyqu va uygʻoqlik davri qat'iy vaqtga moslashgan", "en": "The baby's sleep and wakefulness cycle is well-regulated", "ru": "Режим сна и бодрствования ребёнка стабилен", "score": 1 },
+          "A2": { "uz": "Bolaning uyqu va uygʻoqlik davri qat'iy vaqtga moslashmagan", "en": "The baby's sleep and wakefulness cycle is irregular", "ru": "Режим сна и бодрствования ребёнка нестабилен", "score": 2 },
+          "A3": { "uz": "Bola injiq va qiyin uxlaydi", "en": "The baby is fussy and has trouble sleeping", "ru": "Ребёнок капризен и плохо спит", "score": 3 }
+        }
+      },
+      {
+        "id": "V",
+        "question": {
+          "uz": "Bola siz bilan muloqotda jilmayadimi?",
+          "en": "Does the baby smile during interaction?",
+          "ru": "Улыбается ли ребёнок при общении?"
+        },
+        "answers": {
+          "V1": { "uz": "Xa u tez-tez jilmayadi.", "en": "Yes, the baby smiles often.", "ru": "Да, часто улыбается.", "score": 1 },
+          "V2": { "uz": "Xa lekin juda kam", "en": "Yes, but very rarely.", "ru": "Да, но очень редко.", "score": 2 },
+          "V3": { "uz": "Yoʻq u jilmayishni bilmaydi", "en": "No, the baby does not smile.", "ru": "Нет, не улыбается.", "score": 3 }
+        }
+      },
+      {
+        "id": "S",
+        "question": {
+          "uz": "Bolangiz tinch xolatda “gu-gu”laydimi?",
+          "en": "Does your baby coo ('gu-gu') when calm?",
+          "ru": "Издаёт ли ребёнок звуки 'гу-гу', когда спокоен?"
+        },
+        "answers": {
+          "S1": { "uz": "Xa, tez-tez", "en": "Yes, often", "ru": "Да, часто", "score": 1 },
+          "S2": { "uz": "Xa, lekin juda kam", "en": "Yes, but very rarely", "ru": "Да, но очень редко", "score": 2 },
+          "S3": { "uz": "Yoʻq.", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "D",
+        "question": {
+          "uz": "Bolaning yotgandagi tana holatiga baho bering, mushaklarini ushlab koʻring:",
+          "en": "Assess the baby's lying posture and check muscle tone:",
+          "ru": "Оцените позу ребёнка в лежачем положении и его мышечный тонус:"
+        },
+        "answers": {
+          "D1": { "uz": "Bolaning oyoq qoʻllari bir hil bukilgan, bolaning harakatlariga mushak tarangligi xalaqit bermaydi", "en": "Baby's arms and legs are evenly bent, and muscle tension does not interfere with movement", "ru": "Руки и ноги ребёнка согнуты равномерно, мышечное напряжение не мешает движениям", "score": 1 },
+          "D2": { "uz": "Bolaning oyoq qoʻllari turli hil bukilgan, bolaning harakatlariga mushak tarangligi xalaqit beradi", "en": "Baby's arms and legs are unevenly bent, and muscle tension interferes with movement", "ru": "Руки и ноги ребёнка согнуты неравномерно, мышечное напряжение мешает движениям", "score": 2 },
+          "D3": { "uz": "Bolaning oyoq –qoʻllarining mushaklari juda boʻsh, bolaning holati “baqa holatida”", "en": "Baby's muscles are very weak, and the baby assumes a 'frog-like' position", "ru": "Мышцы ребёнка очень слабые, поза напоминает 'позу лягушки'", "score": 3 }
+        }
+      },
+      {
+        "id": "E",
+        "question": {
+          "uz": "Bolani qorni bilan yotqizing, bola boshini mustaqil koʻtara olyaptimi?",
+          "en": "Place the baby on their stomach. Can they lift their head independently?",
+          "ru": "Положите ребёнка на живот. Может ли он самостоятельно поднимать голову?"
+        },
+        "answers": {
+          "E1": { "uz": "Xa, u uzoq vaqt boshini mustaqil koʻtara oladi.", "en": "Yes, they can hold their head up for a long time.", "ru": "Да, может долго держать голову.", "score": 1 },
+          "E2": { "uz": "Xa, lekin qisqa muddatda.", "en": "Yes, but only for a short time.", "ru": "Да, но на короткое время.", "score": 2 },
+          "E3": { "uz": "Yoʻq, umuman koʻtara olmaydi.", "en": "No, they cannot lift their head at all.", "ru": "Нет, не может поднять голову.", "score": 3 }
+        }
+      },
+      {
+        "id": "J",
+        "question": {
+          "uz": "Bolani tik koʻtaring, bola boshini mustaqil koʻtara olyaptimi?",
+          "en": "Lift the baby upright. Can they hold their head independently?",
+          "ru": "Поднимите ребёнка в вертикальное положение. Может ли он самостоятельно держать голову?"
+        },
+        "answers": {
+          "J1": { "uz": "Xa, lekin qisqa muddatda", "en": "Yes, but only for a short time", "ru": "Да, но на короткое время", "score": 1 },
+          "J2": { "uz": "Yoʻq, boshini koʻtarishga qiynaladi", "en": "No, they struggle to lift their head", "ru": "Нет, с трудом поднимает голову", "score": 2 },
+          "J3": { "uz": "Yoʻq, umuman koʻtara olmaydi.", "en": "No, they cannot lift their head at all.", "ru": "Нет, совсем не может поднять голову.", "score": 3 }
+        }
+      },
+      {
+        "id": "O",
+        "question": {
+          "uz": "Bolaning qarama-qarshi tomonidagi oʻyinchoqni qimrlating, bola nigohini baholang.",
+          "en": "Move a toy in front of the baby. How do they follow it?",
+          "ru": "Пошевелите игрушкой перед ребёнком. Как он её отслеживает?"
+        },
+        "answers": {
+          "O1": { "uz": "Bola harakatlanayotgan oʻyinchoqni kuzatadi.", "en": "The baby follows the moving toy.", "ru": "Ребёнок следит за движущейся игрушкой.", "score": 1 },
+          "O2": { "uz": "Bola oʻyinchoqqa qaraydi lekin harakatini kuzatmaydi.", "en": "The baby looks at the toy but does not follow its movement.", "ru": "Ребёнок смотрит на игрушку, но не отслеживает её движение.", "score": 2 },
+          "O3": { "uz": "Bola oʻyinchoqqa qaramaydi.", "en": "The baby does not look at the toy.", "ru": "Ребёнок не смотрит на игрушку.", "score": 3 }
+          }
+      },
+      {
+        "id": "K",
+        "question": {
+          "uz": "Bolaning eshitishini baholang. U sizningcha ovozlarni eshityaptimi?",
+          "en": "Assess the baby's hearing. Do they respond to sounds?",
+          "ru": "Оцените слух ребёнка. Реагирует ли он на звуки?"
+        },
+        "answers": {
+          "K1": { "uz": "Bola qattiq tovushlarga choʻchib ketadi, kattalar ovoziga qarab yigʻi ohangi oʻzgaradi.", "en": "The baby startles at loud sounds and changes their cry when hearing adult voices.", "ru": "Ребёнок вздрагивает от громких звуков и меняет тон плача при голосе взрослых.", "score": 1 },
+          "K2": { "uz": "Bola qattiq tovushlarga choʻchib ketadi, kattalar ovoziga qarab yigʻi ohangi oʻzgarmaydi.", "en": "The baby startles at loud sounds, but their cry does not change with adult voices.", "ru": "Ребёнок вздрагивает от громких звуков, но тон плача не меняется при голосе взрослых.", "score": 2 },
+          "K3": { "uz": "Bolaga qattiq tovushlar va kattalar ovoziga umuman ta'sirlanmaydi.", "en": "The baby does not react to loud sounds or adult voices.", "ru": "Ребёнок не реагирует на громкие звуки и голоса взрослых.", "score": 3 }
+        }
+      }
+    ],
+  
+    "evaluation": [
+      {
+        "min_score": 24,
+        "max_score": 24,
+        "result": {
+          "uz": "Sizning bolangizda psixomotor muammolar kuzatilmadi. Bolani yaxshilab parvarishlashda davom eting, bolada qaysidir muammolarni sezsangiz darhol pediatrga uchrang.",
+          "en": "Your baby has no observed psychomotor issues. Continue proper care, and if you notice any concerns, consult a pediatrician immediately.",
+          "ru": "У вашего ребёнка нет выявленных психомоторных проблем. Продолжайте правильный уход, и если заметите какие-либо проблемы, немедленно обратитесь к педиатру."
+        }
+      },
+      {
+        "min_score": 12,
+        "max_score": 14,
+        "result": {
+          "uz": "Sizning bolangizda turli psixomotor muammolar kuzatilmoqda, zudlik bilan pediatrga uchrang.",
+          "en": "Your baby has some psychomotor issues. Consult a pediatrician immediately.",
+          "ru": "У вашего ребёнка наблюдаются некоторые психомоторные проблемы. Срочно обратитесь к педиатру."
+        }
+      },
+      {
+        "min_score": 0,
+        "max_score": 11,
+        "result": {
+          "uz": "Sizning bolangizda jiddiy bosh miyaga aloqador muammolar kuzatilmoqda, zudlik bilan pediatrga va bolalar nevropatologiga uchrang.",
+          "en": "Your baby has serious neurological issues. Immediately consult a pediatrician and a child neurologist.",
+          "ru": "У вашего ребёнка серьёзные неврологические проблемы. Немедленно обратитесь к педиатру и детскому неврологу."
+        }
+      }
+    ]
+  },
+
+    {
+    
+    "month": 3,
+    "questions": [
+      {
+        "id": "A",
+        "question": {
+          "uz": "Bolangiz onasini yoki unga tanish insonlarni koʻrganda jonlanib, hursand boʻlib ketadimi?",
+          "en": "Does your baby become excited and happy when seeing their mother or familiar people?",
+          "ru": "Ребёнок оживляется и радуется, когда видит мать или знакомых людей?"
+        },
+        "answers": {
+          "A1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "A2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "A3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "V",
+        "question": {
+          "uz": "Bola qoʻshiq kabi gu-gulab ovoz chiqaryaptimi?",
+          "en": "Does the baby make cooing or singing-like sounds?",
+          "ru": "Издаёт ли ребёнок гуление, похожее на песенку?"
+        },
+        "answers": {
+          "V1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "V2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "V3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "S",
+        "question": {
+          "uz": "Qoʻllarini ba'zan birdaniga ikki yonga yozib harakat qiladimi?",
+          "en": "Does the baby sometimes spread both arms out suddenly?",
+          "ru": "Разводит ли ребёнок руки в стороны резко?"
+        },
+        "answers": {
+          "S1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "S2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "S3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "D",
+        "question": {
+          "uz": "Qoʻllarini gorizontal tekislikdan balandga koʻtara oladimi? Masalan, krovat tepasidagi oʻyinchoqqa?",
+          "en": "Can the baby raise their arms above a horizontal level? For example, towards a toy above the crib?",
+          "ru": "Может ли ребёнок поднимать руки выше горизонтального уровня? Например, к игрушке над кроваткой?"
+        },
+        "answers": {
+          "D1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "D2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "D3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "E",
+        "question": {
+          "uz": "Bolani qorni bilan yotqizing, bola boshini va elka qismini mustaqil koʻtara olyaptimi?",
+          "en": "Place the baby on their stomach. Can they lift their head and shoulders independently?",
+          "ru": "Положите ребёнка на живот. Может ли он самостоятельно поднимать голову и плечи?"
+        },
+        "answers": {
+          "E1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "E2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "E3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "J",
+        "question": {
+          "uz": "Bolani tik koʻtaring, bola boshini mustaqil koʻtara olyaptimi?",
+          "en": "Lift the baby upright. Can they hold their head independently?",
+          "ru": "Поднимите ребёнка в вертикальное положение. Может ли он самостоятельно держать голову?"
+        },
+        "answers": {
+          "J1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "J2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "J3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "O",
+        "question": {
+          "uz": "Bola oʻyinchoqning turli tomonlaridan ham kuzata oladimi?",
+          "en": "Can the baby track a toy from different directions?",
+          "ru": "Может ли ребёнок следить за игрушкой с разных сторон?"
+        },
+        "answers": {
+          "O1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "O2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "O3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "K",
+        "question": {
+          "uz": "Oʻyinchoqqa nisbatan qoʻlini yoʻnaltiradimi?",
+          "en": "Does the baby reach for the toy?",
+          "ru": "Протягивает ли ребёнок руку к игрушке?"
+        },
+        "answers": {
+          "K1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "K2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "K3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "L",
+        "question": {
+          "uz": "Turli tovushlarga nisbatan boshi va koʻzini yoʻnaltiradimi?",
+          "en": "Does the baby turn their head and eyes in response to different sounds?",
+          "ru": "Поворачивает ли ребёнок голову и глаза в ответ на разные звуки?"
+        },
+        "answers": {
+          "L1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "L2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "L3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      }
+    ],
+    "evaluation": [
+      {
+        "min_score": 27,
+        "max_score": 27,
+        "result": {
+          "uz": "Sizning bolangizda psixomotor muammolar kuzatilmadi.",
+          "en": "Your baby has no observed psychomotor issues.",
+          "ru": "У вашего ребёнка нет выявленных психомоторных проблем."
+        }
+      },
+      {
+        "min_score": 16,
+        "max_score": 18,
+        "result": {
+          "uz": "Sizning bolangizda turli psixomotor muammolar kuzatilmoqda.",
+          "en": "Your baby has some psychomotor issues.",
+          "ru": "У вашего ребёнка наблюдаются некоторые психомоторные проблемы."
+        }
+      },
+      {
+        "min_score": 0,
+        "max_score": 15,
+        "result": {
+          "uz": "Sizning bolangizda jiddiy psixomotor muammolar kuzatilmoqda.",
+          "en": "Your baby has serious psychomotor issues.",
+          "ru": "У вашего ребёнка серьёзные психомоторные проблемы."
+        }
+      }
+    ]
+  },
+    {
+  "month": 4,
+  "questions": [
+    {
+      "id": "A",
+      "question": {
+        "uz": "Bolangiz onasini yoki unga tanish insonlarni koʻrganda jonlanib hursand boʻlib ketadimi?",
+        "en": "Does your baby become excited and happy when seeing their mother or familiar people?",
+        "ru": "Ребёнок оживляется и радуется, когда видит мать или знакомых людей?"
+      },
+      "answers": {
+        "A1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+        "A2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+        "A3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+      }
+    },
+    {
+      "id": "B",
+      "question": {
+        "uz": "Muloqotga kirishuvchanlikda jonlanish kompleksidan soʻng muloqotga kirishishga qiziqish darhol boʻladimi?",
+        "en": "Does the baby show immediate interest in communication after the excitement reaction?",
+        "ru": "Проявляет ли ребёнок немедленный интерес к общению после реакции оживления?"
+      },
+      "answers": {
+        "B1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+        "B2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+        "B3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+      }
+    },
+    {
+      "id": "V",
+      "question": {
+        "uz": "Bola qoʻshiq kabi gu-gulab ovoz chiqaryaptimi?",
+        "en": "Does the baby make cooing or singing-like sounds?",
+        "ru": "Издаёт ли ребёнок гуление, похожее на песенку?"
+      },
+      "answers": {
+        "V1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+        "V2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+        "V3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+      }
+    },
+    {
+      "id": "S",
+      "question": {
+        "uz": "Bola qiqirlab kulyaptimi?",
+        "en": "Does the baby giggle or laugh?",
+        "ru": "Смеётся ли ребёнок?"
+      },
+      "answers": {
+        "S1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+        "S2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+        "S3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+      }
+    },
+    {
+      "id": "D",
+      "question": {
+        "uz": "Bola qoʻllari bilan ixtiyoriy harakatlar qila oladimi?",
+        "en": "Can the baby make voluntary hand movements?",
+        "ru": "Может ли ребёнок делать осознанные движения руками?"
+      },
+      "answers": {
+        "D1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+        "D2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+        "D3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+      }
+    },
+    {
+      "id": "E",
+      "question": {
+        "uz": "Bolani qorni bilan yotqizing, bola boshini va elka qismini mustaqil koʻtara olyaptimi?",
+        "en": "Place the baby on their stomach, can they lift their head and shoulders independently?",
+        "ru": "Положите ребёнка на живот, может ли он самостоятельно поднимать голову и плечи?"
+      },
+      "answers": {
+        "E1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+        "E2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+        "E3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+      }
+    },
+    {
+      "id": "J",
+      "question": {
+        "uz": "Bola chalqancha yotganda uning qoʻlidan ushlasangiz boshini koʻtaradimi?",
+        "en": "When lying on their back, does the baby lift their head if you hold their hands?",
+        "ru": "Когда ребёнок лежит на спине, поднимает ли он голову, если держать его за руки?"
+      },
+      "answers": {
+        "J1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+        "J2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+        "J3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+      }
+    },
+    {
+      "id": "O",
+      "question": {
+        "uz": "Bola chalqancha yotganda yon tomonga mustaqil dumalay oladimi?",
+        "en": "When lying on their back, can the baby roll to the side independently?",
+        "ru": "Когда ребёнок лежит на спине, может ли он самостоятельно переворачиваться на бок?"
+      },
+      "answers": {
+        "O1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+        "O2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+        "O3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+      }
+    },
+    {
+      "id": "I",
+      "question": {
+        "uz": "Bola qorni bilan yotganda ikki oyogʻini tizzadan tepaga koʻtara oladimi?",
+        "en": "When lying on their stomach, can the baby lift both legs from the knees upwards?",
+        "ru": "Когда ребёнок лежит на животе, может ли он поднимать обе ноги от колен вверх?"
+      },
+      "answers": {
+        "I1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+        "I2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+        "I3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+      }
+    },
+    {
+      "id": "K",
+      "question": {
+        "uz": "Oʻyinchoqqa nisbatan qoʻlini yoʻnaltiradimi?",
+        "en": "Does the baby reach for the toy?",
+        "ru": "Тянется ли ребёнок к игрушке?"
+      },
+      "answers": {
+        "K1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+        "K2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+        "K3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+      }
+    },
+    {
+      "id": "L",
+      "question": {
+        "uz": "Bola oʻz qoʻllarini tomosha qilyaptimi?",
+        "en": "Does the baby watch their own hands?",
+        "ru": "Рассматривает ли ребёнок свои руки?"
+      },
+      "answers": {
+        "L1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+        "L2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+        "L3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+      }
+    },
+    {
+      "id": "M",
+      "question": {
+        "uz": "Turli tovushlarga nisbatan boshi va koʻzini yoʻnaltiradimi?",
+        "en": "Does the baby turn their head and eyes toward different sounds?",
+        "ru": "Поворачивает ли ребёнок голову и глаза на различные звуки?"
+      },
+      "answers": {
+        "M1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+        "M2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+        "M3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+      }
+    }
+  ],
+  "evaluation": [
+    {
+      "min_score": 33,
+      "max_score": 33,
+      "result": {
+        "uz": "Sizning bolangizda psixomotor muammolar kuzatilmadi. Bolani yaxshilab parvarishlashda davom eting, bolada qaysidir muammolarni sezsangiz darhol pediatrga uchrang.",
+        "en": "Your baby has no observed psychomotor issues. Continue taking good care of the baby. If you notice any problems, see a pediatrician immediately.",
+        "ru": "У вашего ребёнка нет выявленных психомоторных проблем. Продолжайте хорошо заботиться о ребёнке. Если заметите какие-либо проблемы, немедленно обратитесь к педиатру."
+      }
+    },
+    {
+      "min_score": 18,
+      "max_score": 28,
+      "result": {
+        "uz": "Sizning bolangizda turli psixomotor muammolar kuzatilmoqda, zudlik bilan pediatrga uchrang.",
+        "en": "Your baby has some psychomotor issues. Consult a pediatrician immediately.",
+        "ru": "У вашего ребёнка наблюдаются некоторые психомоторные проблемы. Срочно обратитесь к педиатру."
+      }
+    },
+    {
+      "min_score": 0,
+      "max_score": 17,
+      "result": {
+        "uz": "Sizning bolangizda jiddiy bosh miyaga aloqador muammolar kuzatilmoqda, zudlik bilan pediatrga va bolalar nevropatologiga uchrang.",
+        "en": "Your baby has serious brain-related issues. Consult a pediatrician and a child neurologist immediately.",
+        "ru": "У вашего ребёнка серьёзные проблемы, связанные с головным мозгом. Срочно обратитесь к педиатру и детскому неврологу."
+      }
+    }
+  ]
+},
+
+
+  {
+    "month": 5,
+    "questions": [
+      {
+        "id": "A",
+        "question": {
+          "uz": "Bolangiz onasini yoki unga tanish insonlarni koʻrganda jonlanib hursand boʻlib ketadimi?",
+          "en": "Does your baby get excited and happy when seeing the mother or familiar people?",
+          "ru": "Ребёнок оживляется и радуется, когда видит мать или знакомых людей?"
+        },
+        "answers": {
+          "A1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "A2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "A3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "B",
+        "question": {
+          "uz": "Muloqotga kirishuvchanlikda jonlanish kompleksida hursandchilik qoʻrquv bilan almashinib turadimi?",
+          "en": "Does the baby's excitement in interaction alternate with fear?",
+          "ru": "Радость при взаимодействии у ребёнка чередуется со страхом?"
+        },
+        "answers": {
+          "B1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "B2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "B3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "V",
+        "question": {
+          "uz": "Bola qoʻshiq kabi gu-gulab ovoz chiqaryaptimi?",
+          "en": "Does the baby make cooing sounds like a song?",
+          "ru": "Ребёнок издает звуки, похожие на песню?"
+        },
+        "answers": {
+          "V1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "V2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "V3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "S",
+        "question": {
+          "uz": "Bola qiqirlab kulyaptimi?",
+          "en": "Does the baby giggle and laugh?",
+          "ru": "Ребёнок смеётся и хихикает?"
+        },
+        "answers": {
+          "S1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "S2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "S3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "D",
+        "question": {
+          "uz": "Tovushlar zanjiri kulish va gʻingshish bilan almashinib turadimi?",
+          "en": "Do sound sequences alternate with laughter and whining?",
+          "ru": "Чередуются ли звуковые последовательности со смехом и нытьем?"
+        },
+        "answers": {
+          "D1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "D2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "D3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "E",
+        "question": {
+          "uz": "Bola qoʻllari bilan ixtiyoriy harakatlar qila oladimi?",
+          "en": "Can the baby make voluntary movements with their hands?",
+          "ru": "Может ли ребенок совершать произвольные движения руками?"
+        },
+        "answers": {
+          "E1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "E2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "E3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "J",
+        "question": {
+          "uz": "Bolani qorni bilan yotqizing, bola boshini va elka qismini ikkala qoʻliga yoki bitta qoʻliga tiralib mustaqil koʻtara olyaptimi?",
+          "en": "When lying on the stomach, can the baby lift their head and upper body using one or both arms?",
+          "ru": "Когда ребенок лежит на животе, может ли он поднимать голову и верхнюю часть тела, опираясь на одну или обе руки?"
+        },
+        "answers": {
+          "J1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "J2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "J3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "O",
+        "question": {
+          "uz": "Bola chalqancha yotganda yon tomonga mustaqil dumalay oladimi?",
+          "en": "Can the baby independently roll to the side when lying on their back?",
+          "ru": "Может ли ребенок самостоятельно переворачиваться на бок, лежа на спине?"
+        },
+        "answers": {
+          "O1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "O2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "O3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "I",
+        "question": {
+          "uz": "Bola qorni bilan yotganda ikki oyogʻini tizzadan tepaga koʻtara oladimi?",
+          "en": "When lying on the stomach, can the baby lift both legs at the knees upwards?",
+          "ru": "Когда ребенок лежит на животе, может ли он поднимать обе ноги в коленях вверх?"
+        },
+        "answers": {
+          "I1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "I2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "I3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "K",
+        "question": {
+          "uz": "Oʻyinchoqqa nisbatan qoʻlini choʻzib uni ushlab olyaptimi?",
+          "en": "Does the baby reach for and grasp a toy?",
+          "ru": "Протягивает ли ребенок руку к игрушке и берет её?"
+        },
+        "answers": {
+          "K1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "K2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "K3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "L",
+        "question": {
+          "uz": "Bola oʻz qoʻllarini yoki oʻyinchoqni ogʻziga solishni bilyaptimi?",
+          "en": "Does the baby put their hands or toys into their mouth?",
+          "ru": "Ребёнок тянет руки или игрушку в рот?"
+        },
+        "answers": {
+          "L1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "L2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "L3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "M",
+        "question": {
+          "uz": "Bola onasining ovozidagi ohanga qarab mos holda hursand boʻladi yoki bezovtalanadi?",
+          "en": "Does the baby react with joy or discomfort depending on the tone of the mother's voice?",
+          "ru": "Ребёнок реагирует радостью или беспокойством в зависимости от интонации голоса матери?"
+        },
+        "answers": {
+          "M1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "M2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "M3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "N",
+        "question": {
+          "uz": "Bir buyumdan ikkinchi buyumga nigohini zudlik bilan yoʻnaltira oladimi?",
+          "en": "Can the baby quickly shift their gaze from one object to another?",
+          "ru": "Может ли ребёнок быстро переводить взгляд с одного предмета на другой?"
+        },
+        "answers": {
+          "N1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "N2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "N3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      }
+    ],
+  
+    "evaluation": [
+      {
+        "min_score": 36,
+        "max_score": 36,
+        "result": {
+          "uz": "Sizning bolangizda psixomotor muammolar kuzatilmadi. Bolani yaxshilab parvarishlashda davom eting, bolada qaysidir muammolarni sezsangiz darhol pediatrga uchrang.",
+          "en": "Your baby has no observed psychomotor issues. Continue taking good care of your baby. If you notice any issues, consult a pediatrician immediately.",
+          "ru": "У вашего ребенка не наблюдается психомоторных проблем. Продолжайте хорошо заботиться о ребенке. Если заметите какие-либо проблемы, немедленно обратитесь к педиатру."
+        }
+      },
+      {
+        "min_score": 20,
+        "max_score": 30,
+        "result": {
+          "uz": "Sizning bolangizda turli psixomotor muammolar kuzatilmoqda, zudlik bilan pediatrga uchrang.",
+          "en": "Your baby is showing signs of various psychomotor issues. Consult a pediatrician immediately.",
+          "ru": "У вашего ребенка наблюдаются различные психомоторные проблемы. Немедленно обратитесь к педиатру."
+        }
+      },
+      {
+        "min_score": 0,
+        "max_score": 19,
+        "result": {
+          "uz": "Sizning bolangizda jiddiy bosh miyaga aloqador muammolar kuzatilmoqda, zudlik bilan pediatrga va bolalar nevropatologiga uchrang.",
+          "en": "Your baby has serious brain-related issues. Consult a pediatrician and a pediatric neurologist immediately.",
+          "ru": "У вашего ребенка наблюдаются серьезные проблемы, связанные с головным мозгом. Немедленно обратитесь к педиатру и детскому неврологу."
+        }
+      }
+    ]
+  },
+    {
+    "month": 6,
+    "questions": [
+          {
+        "id": "A",
+        "question": {
+          "uz": "Muloqotga kirishuvchanlikda jonlanish kompleksida hursandchilik qoʻrquv bilan almashinib turadimi?",
+          "en": "Does the baby alternate between excitement and fear in social interactions?",
+          "ru": "Чередует ли ребенок радость и страх в общении?"
+        },
+        "answers": {
+          "A1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "A2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "A3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "V",
+        "question": {
+          "uz": "Bola onasini koʻrganda jonlanish yoki onasidan uzoqlashsa bezovtalikni namoyon qilyaptimi?",
+          "en": "Does the baby show excitement upon seeing their mother or distress when separated?",
+          "ru": "Проявляет ли ребенок оживление при виде матери или беспокойство при разлуке с ней?"
+        },
+        "answers": {
+          "V1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "V2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "V3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "S",
+        "question": {
+          "uz": "Notanish insonlarga nisbatan begonasirashni namoyon qilyaptimi?",
+          "en": "Does the baby show signs of stranger anxiety?",
+          "ru": "Проявляет ли ребенок настороженность к незнакомым людям?"
+        },
+        "answers": {
+          "S1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "S2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "S3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+          {
+        "id": "D",
+        "question": {
+          "uz": "Bola turli insonlarga va predmetlarga qiziqish bilan uzoq tomosha qiladimi?",
+          "en": "Does the baby observe different people and objects with interest for a long time?",
+          "ru": "Рассматривает ли ребенок различных людей и предметы с интересом в течение долгого времени?"
+        },
+        "answers": {
+          "D1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "D2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "D3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "E",
+        "question": {
+          "uz": "Boʻgʻinlarga boʻlingan tushunarsiz soʻzlarni aytyaptimi, masalan ba-ba, ma-ma?",
+          "en": "Does the baby make incomprehensible syllabic sounds like 'ba-ba' or 'ma-ma'?",
+          "ru": "Произносит ли ребенок нечленораздельные слоги, такие как 'ба-ба' или 'ма-ма'?"
+        },
+        "answers": {
+          "E1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "E2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "E3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "Yo",
+        "question": {
+          "uz": "Bola qoʻllari bilan ixtiyoriy harakatlar qila oladimi?",
+          "en": "Can the baby voluntarily move their hands?",
+          "ru": "Может ли ребенок произвольно двигать руками?"
+        },
+        "answers": {
+          "Yo1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "Yo2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "Yo3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+          {
+        "id": "J",
+        "question": {
+          "uz": "Bolani qorni bilan yotqizing, bola boshini va elka qismini ikkala qoʻliga yoki bitta qoʻliga tiralib mustaqil koʻtara olyaptimi?",
+          "en": "When placed on their stomach, can the baby lift their head and shoulders independently using one or both arms?",
+          "ru": "Когда ребенок лежит на животе, может ли он поднимать голову и плечи, опираясь на одну или обе руки?"
+        },
+        "answers": {
+          "J1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "J2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "J3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "Y",
+        "question": {
+          "uz": "Bola chalqancha yotganda qorin tomonga mustaqil dumalay oladimi?",
+          "en": "Can the baby roll from their back to their stomach independently?",
+          "ru": "Может ли ребенок самостоятельно переворачиваться со спины на живот?"
+        },
+        "answers": {
+          "Y1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "Y2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "Y3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "I",
+        "question": {
+          "uz": "Bola qorni bilan yotganda ikki oyogʻini tizzadan tepaga koʻtara oladimi?",
+          "en": "When lying on their stomach, can the baby lift both legs from the knees upward?",
+          "ru": "Может ли ребенок, лежа на животе, поднимать обе ноги вверх от колен?"
+        },
+        "answers": {
+          "I1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "I2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "I3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "K",
+        "question": {
+          "uz": "Oʻyinchoqqa nisbatan qoʻlini choʻzib uni ushlab olyaptimi?",
+          "en": "Does the baby reach for and grasp a toy?",
+          "ru": "Протягивает ли ребенок руку к игрушке и берет её?"
+        },
+        "answers": {
+          "K1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "K2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "K3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "L",
+        "question": {
+          "uz": "Bolani qoʻlidan ushlasangiz u sizga tayanib oʻtira oladimi?",
+          "en": "If you hold the baby’s hands, can they sit up with support?",
+          "ru": "Если вы держите ребенка за руки, может ли он сесть, опираясь на вас?"
+        },
+        "answers": {
+          "L1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "L2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "L3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "M",
+        "question": {
+          "uz": "Oʻyinchoqqa nisbatan qoʻlini choʻzib uni har qanday yoʻnalishda ham ushlab olyaptimi?",
+          "en": "Does the baby reach for and grasp a toy in any direction?",
+          "ru": "Протягивает ли ребенок руку к игрушке и берет её в любом направлении?"
+        },
+        "answers": {
+          "M1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "M2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "M3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+          {
+        "id": "N",
+        "question": {
+          "uz": "Bola har ikki qoʻlida ham bittadan oʻyinchoqni bir vaqtda ushlay oladimi?",
+          "en": "Can the baby hold a toy in each hand at the same time?",
+          "ru": "Может ли ребенок держать игрушку в каждой руке одновременно?"
+        },
+        "answers": {
+          "N1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "N2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "N3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "O",
+        "question": {
+          "uz": "Agar kimdir uni chalgʻitmasa tovushga quloq soladi va nigohini shu tomonga yoʻnaltirib izlaydimi?",
+          "en": "If not distracted, does the baby listen to sounds and direct their gaze toward them?",
+          "ru": "Если ребенка не отвлекать, слушает ли он звуки и направляет ли взгляд в их сторону?"
+        },
+        "answers": {
+          "O1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "O2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "O3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      }
+    ],
+    "evaluation": [
+      {
+        "min_score": 42,
+        "max_score": 42,
+        "result" : {
+        "uz": "Sizning bolangizda psixomotor muammolar kuzatilmadi. Bolani yaxshilab parvarishlashda davom eting, bolada qaysidir muammolarni sezsangiz darhol pediatrga uchrang.",
+        "en": "Your baby has no observed psychomotor issues. Continue providing good care. If you notice any concerns, consult a pediatrician immediately.",
+        "ru": "У вашего ребенка не выявлено психомоторных проблем. Продолжайте хорошо заботиться о нем. Если заметите какие-либо проблемы, немедленно обратитесь к педиатру."
+        }
+      },
+      {
+        "min_score": 20,
+        "max_score": 38,
+        "result" : {
+        "uz": "Sizning bolangizda turli psixomotor muammolar kuzatilmoqda, zudlik bilan pediatrga uchrang.",
+        "en": "Your baby has some psychomotor difficulties. Consult a pediatrician immediately.",
+        "ru": "У вашего ребенка наблюдаются различные психомоторные проблемы. Срочно обратитесь к педиатру."
+        }
+      },
+      {
+        "min_score": 0,
+        "max_score": 19,
+        "result" : {
+        "uz": "Sizning bolangizda jiddiy bosh miyaga aloqador muammolar kuzatilmoqda, zudlik bilan pediatrga va bolalar nevropatologiga uchrang.",
+        "en": "Your baby has serious brain-related issues. Consult a pediatrician and a pediatric neurologist immediately.",
+        "ru": "У вашего ребенка серьезные проблемы, связанные с головным мозгом. Срочно обратитесь к педиатру и детскому неврологу."
+        }
+      }
+    ]
+  },
+
+    {
+    "month": 7,
+    "questions": [
+      {
+        "id": "A",
+        "question": {
+          "uz": "Bola notanish insonlar bilan muloqotga kirishishdan avval uni uzoq kuzatishadimi?",
+          "en": "Does the baby observe unfamiliar people for a long time before interacting?",
+          "ru": "Наблюдает ли ребенок за незнакомыми людьми перед взаимодействием?"
+        },
+        "answers": {
+          "A1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "A2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "A3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "V",
+        "question": {
+          "uz": "Bola turli insonlarga va predmetlarga qiziqish bilan uzoq tomosha qiladimi?",
+          "en": "Does the baby watch different people and objects with curiosity for a long time?",
+          "ru": "С интересом ли ребенок долго наблюдает за разными людьми и предметами?"
+        },
+        "answers": {
+          "V1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "V2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "V3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "S",
+        "question": {
+          "uz": "Muloqotga kirishuvchanlikda qoʻrquv hissi qiziqish bilan almashinib turadimi?",
+          "en": "Does the feeling of fear alternate with curiosity in social interactions?",
+          "ru": "Чередуется ли у ребенка чувство страха с любопытством при общении?"
+        },
+        "answers": {
+          "S1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "S2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "S3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "D",
+        "question": {
+          "uz": "Bola oʻziga tanish insonlarni va begona insonlarni bir-biridan farqlay oladimi?",
+          "en": "Can the baby distinguish familiar people from strangers?",
+          "ru": "Может ли ребенок различать знакомых и незнакомых людей?"
+        },
+        "answers": {
+          "D1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "D2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "D3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+          {
+        "id": "E",
+        "question": {
+          "uz": "Boʻgʻinlarga boʻlingan tushunarsiz soʻzlarni aytyaptimi, masalan ba-ba, ma-ma?",
+          "en": "Does the baby say incomprehensible syllables like ba-ba, ma-ma?",
+          "ru": "Произносит ли ребенок непонятные слоги, например, ба-ба, ма-ма?"
+        },
+        "answers": {
+          "E1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "E2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "E3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "Yo",
+        "question": {
+          "uz": "Bola qoʻllari va oyoqlari bilan ixtiyoriy harakatlar qila oladimi?",
+          "en": "Can the baby make voluntary movements with their hands and legs?",
+          "ru": "Может ли ребенок произвольно двигать руками и ногами?"
+        },
+        "answers": {
+          "Yo1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "Yo2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "Yo3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "J",
+        "question": {
+          "uz": "Bola qoʻllariga tayanib mustaqil yoki suyanib bemalol oʻtira oladimi?",
+          "en": "Can the baby sit independently or with support using their hands?",
+          "ru": "Может ли ребенок сидеть самостоятельно или с опорой на руки?"
+        },
+        "answers": {
+          "J1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "J2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "J3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "I",
+        "question": {
+          "uz": "Bola qorni bilan oʻrmalovchi harakatlar qiladimi?",
+          "en": "Does the baby make crawling movements on their stomach?",
+          "ru": "Совершает ли ребенок движения, похожие на ползание на животе?"
+        },
+        "answers": {
+          "I1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "I2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "I3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+          {
+        "id": "Y",
+        "question": {
+          "uz": "Bola qorin bilan yotgandan keyin orqa tomoniga mustaqil dumalay oladimi?",
+          "en": "Can the baby roll over independently from stomach to back?",
+          "ru": "Может ли ребенок самостоятельно переворачиваться с живота на спину?"
+        },
+        "answers": {
+          "Y1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "Y2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "Y3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "K",
+        "question": {
+          "uz": "Bola qorni bilan yotganda ikki oyogʻini tizzadan tepaga koʻtara oladimi?",
+          "en": "Can the baby lift both legs up from the knees while lying on their stomach?",
+          "ru": "Может ли ребенок поднимать обе ноги вверх, сгибая их в коленях, лежа на животе?"
+        },
+        "answers": {
+          "K1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "K2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "K3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "L",
+        "question": {
+          "uz": "Bolani qoʻlidan ushlasangiz u sizga tayanib tik tura oladimi?",
+          "en": "Can the baby stand up with support if you hold their hands?",
+          "ru": "Может ли ребенок стоять с поддержкой, если держать его за руки?"
+        },
+        "answers": {
+          "L1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "L2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "L3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "M",
+        "question": {
+          "uz": "Oʻyinchoqni ushlab olgandan soʻng bola butun tanasini xursandchilik bilan qimirlatadimi?",
+          "en": "Does the baby move their whole body with joy after grabbing a toy?",
+          "ru": "Двигает ли ребенок всем телом от радости, когда берет игрушку?"
+        },
+        "answers": {
+          "M1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "M2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "M3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+          {
+        "id": "N",
+        "question": {
+          "uz": "Bola bir qoʻlidagi oʻyinchoqni ikkinchi qoʻliga olishni biladimi?",
+          "en": "Can the baby transfer a toy from one hand to the other?",
+          "ru": "Может ли ребенок переложить игрушку из одной руки в другую?"
+        },
+        "answers": {
+          "N1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "N2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "N3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "O",
+        "question": {
+          "uz": "Bola oʻyinchoqlarga qoʻli bilan shapatilaydimi?",
+          "en": "Does the baby slap at toys with their hand?",
+          "ru": "Хлопает ли ребенок по игрушкам рукой?"
+        },
+        "answers": {
+          "O1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "O2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "O3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "P",
+        "question": {
+          "uz": "Bola oʻz yaqinlarini koʻrmasa ham ovozlaridan ularni taniydimi?",
+          "en": "Can the baby recognize familiar people by their voices even without seeing them?",
+          "ru": "Может ли ребенок узнавать близких по голосу, даже не видя их?"
+        },
+        "answers": {
+          "P1": { "uz": "Ha", "en": "Yes", "ru": "Да", "score": 1 },
+          "P2": { "uz": "Ba'zida", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "P3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      }
+    ],
+    "evaluation": [
+      {
+        "min_score": 45,
+        "max_score": 48,
+        "result": {
+          "uz": "Sizning bolangizda psixomotor muammolar kuzatilmadi. Bolani yaxshilab parvarishlashda davom eting, bolada qaysidir muammolarni sezsangiz darhol pediatrga uchrang.",
+          "en": "Your baby shows no signs of psychomotor issues. Continue taking good care of them. If you notice any problems, consult a pediatrician immediately.",
+          "ru": "У вашего ребенка нет признаков психомоторных проблем. Продолжайте хорошо ухаживать за ним. Если заметите какие-либо проблемы, немедленно обратитесь к педиатру."
+        }
+      },
+      {
+        "min_score": 20,
+        "max_score": 38,
+        "result": {
+          "uz": "Sizning bolangizda turli psixomotor muammolar kuzatilmoqda, zudlik bilan pediatrga uchrang.",
+          "en": "Your baby is showing some psychomotor difficulties. Consult a pediatrician as soon as possible.",
+          "ru": "У вашего ребенка наблюдаются различные психомоторные нарушения. Срочно обратитесь к педиатру."
+        }
+      },
+      {
+        "min_score": 0,
+        "max_score": 19,
+        "result": {
+          "uz": "Sizning bolangizda jiddiy bosh miyaga aloqador muammolar kuzatilmoqda, zudlik bilan pediatrga va bolalar nevropatologiga uchrang.",
+          "en": "Your baby has serious brain-related issues. Consult a pediatrician and a pediatric neurologist immediately.",
+          "ru": "У вашего ребенка наблюдаются серьезные проблемы, связанные с головным мозгом. Немедленно обратитесь к педиатру и детскому неврологу."
+        }
+      }
+    ]
+  },
+    {
+    "month": 8,
+    "questions": [
+      {
+        "id": "A",
+        "question": {
+          "uz": "Sizning bolangiz kattalar bilan oʻyinli muloqotga kirishyaptimi?",
+          "en": "Does your baby engage in playful communication with adults?",
+          "ru": "Вовлекается ли ваш ребенок в игровое общение со взрослыми?"
+        },
+        "answers": {
+          "A1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "A2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "A3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "V",
+        "question": {
+          "uz": "Bola muloqot vaqtida turli xil yuz ifodalarini oʻzgartirib turli tovushlar chiqaryaptimi?",
+          "en": "Does your baby change facial expressions and make different sounds while communicating?",
+          "ru": "Меняет ли ваш ребенок выражение лица и издает разные звуки во время общения?"
+        },
+        "answers": {
+          "V1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "V2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "V3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "S",
+        "question": {
+          "uz": "Bola oʻziga tanish insonlarni va begona insonlarni aniq bir-biridan farqlay oladimi?",
+          "en": "Can your baby clearly distinguish between familiar and unfamiliar people?",
+          "ru": "Может ли ваш ребенок четко различать знакомых и незнакомых людей?"
+        },
+        "answers": {
+          "S1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "S2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "S3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "D",
+        "question": {
+          "uz": "Bola faol, ohangli, aniq gʻoʻldirash kabi tovushlar chiqara oladimi?",
+          "en": "Can your baby produce active, melodic, and clear babbling sounds?",
+          "ru": "Может ли ваш ребенок издавать активные, мелодичные и четкие бормочущие звуки?"
+        },
+        "answers": {
+          "D1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "D2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "D3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "E",
+        "question": {
+          "uz": "Bola qoʻllari va oyoqlari bilan ixtiyoriy harakatlar qila oladimi?",
+          "en": "Can your baby move their arms and legs voluntarily?",
+          "ru": "Может ли ваш ребенок произвольно двигать руками и ногами?"
+        },
+        "answers": {
+          "E1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "E2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "E3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "Yo",
+        "question": {
+          "uz": "Bola bemalol oʻtira oladimi?",
+          "en": "Can your baby sit comfortably?",
+          "ru": "Может ли ваш ребенок сидеть уверенно?"
+        },
+        "answers": {
+          "Yo1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "Yo2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "Yo3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "J",
+        "question": {
+          "uz": "Bola bemalol “toʻrt oyoqlab” emaklay oladimi?",
+          "en": "Can your baby crawl on all fours easily?",
+          "ru": "Может ли ваш ребенок легко ползать на четвереньках?"
+        },
+        "answers": {
+          "J1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "J2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "J3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "I",
+        "question": {
+          "uz": "Bola biror narsani ushlab tizzalab tura oladimi?",
+          "en": "Can your baby kneel while holding onto something?",
+          "ru": "Может ли ваш ребенок стоять на коленях, держась за что-то?"
+        },
+        "answers": {
+          "I1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "I2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "I3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "K",
+        "question": {
+          "uz": "Bola qorni bilan yotganda ikki oyogʻini tizzadan tepaga koʻtara oladimi?",
+          "en": "Can your baby lift both legs up at the knees while lying on their stomach?",
+          "ru": "Может ли ваш ребенок поднимать обе ноги в коленях, лежа на животе?"
+        },
+        "answers": {
+          "K1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "K2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "K3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "L",
+        "question": {
+          "uz": "Bola oʻyinchoqlarni irgʻitadi (2 yoki 3 ta bilan) erga taqqillatib uradimi?",
+          "en": "Does your baby throw toys (2 or 3 at a time) and bang them on the floor?",
+          "ru": "Бросает ли ваш ребенок игрушки (2-3 штуки) и ударяет их о пол?"
+        },
+        "answers": {
+          "L1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "L2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "L3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+          {
+        "id": "M",
+        "question": {
+          "uz": "Bola oʻz ismi bilan chaqirsangiz ismini biladi va qaraydimi?",
+          "en": "Does your baby recognize their name and look when called?",
+          "ru": "Ребенок реагирует и поворачивается, когда его зовут по имени?"
+        },
+        "answers": {
+          "M1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "M2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "M3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "N",
+        "question": {
+          "uz": "Bola turli insonlarning yuzidan taniydimi?",
+          "en": "Can your baby recognize different people by their faces?",
+          "ru": "Может ли ваш ребенок узнавать разных людей по лицу?"
+        },
+        "answers": {
+          "N1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "N2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "N3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "O",
+        "question": {
+          "uz": "Qani? Soʻrogʻiga bir necha buyumlarga qaraydimi?",
+          "en": "Does your baby look at multiple objects when asked 'Where is it?'",
+          "ru": "Смотрит ли ваш ребенок на несколько предметов, когда вы спрашиваете 'Где?'"
+        },
+        "answers": {
+          "O1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "O2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "O3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "P",
+        "question": {
+          "uz": "Kattalar aytgan iltimosni uqib bajaradimi? (M: chapak chal, xayr qil)",
+          "en": "Does your baby understand and follow simple commands (e.g., clap, wave goodbye)?",
+          "ru": "Понимает ли ваш ребенок простые просьбы (например, хлопать, махать на прощание)?"
+        },
+        "answers": {
+          "P1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "P2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "P3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "R",
+        "question": {
+          "uz": "Qoʻli bilan non, pecheneni ushlab eydimi?",
+          "en": "Does your baby hold and eat bread or cookies with their hands?",
+          "ru": "Берет ли ваш ребенок хлеб или печенье и ест его руками?"
+        },
+        "answers": {
+          "R1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "R2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "R3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      }
+    ],
+    "evaluation": [
+      {
+        "min_score": 40,
+        "max_score": 45,
+        "result": {
+          "uz": "Sizning bolangizda psixomotor muammolar kuzatilmadi. Bolani yaxshilab parvarishlashda davom eting, bolada qaysidir muammolarni sezsangiz darhol pediatrga uchrang.",
+          "en": "Your baby has no psychomotor issues. Continue taking good care of them. If you notice any problems, consult a pediatrician immediately.",
+          "ru": "У вашего ребенка нет психомоторных проблем. Продолжайте заботиться о нем. Если заметите проблемы, немедленно обратитесь к педиатру."
+        }
+      },
+      {
+        "min_score": 30,
+        "max_score": 39,
+        "result": {
+          "uz": "Sizning bolangizda turli psixomotor muammolar kuzatilmoqda, zudlik bilan pediatrga uchrang.",
+          "en": "Your baby has some psychomotor issues. Consult a pediatrician immediately.",
+          "ru": "У вашего ребенка наблюдаются некоторые психомоторные проблемы. Немедленно обратитесь к педиатру."
+        }
+      },
+      {
+        "min_score": 0,
+        "max_score": 29,
+        "result": {
+          "uz": "Sizning bolangizda jiddiy bosh miyaga aloqador muammolar kuzatilmoqda, zudlik bilan pediatrga va bolalar nevropatologiga uchrang.",
+          "en": "Your baby has serious brain-related issues. Consult a pediatrician and a pediatric neurologist immediately.",
+          "ru": "У вашего ребенка наблюдаются серьезные проблемы, связанные с головным мозгом. Немедленно обратитесь к педиатру и детскому неврологу."
+        }
+      }
+    ]
+  },
+    {
+    "month": 9,
+    "questions": [
+      {
+        "id": "A",
+        "question": {
+          "uz": "Sizning bolangiz kattalar bilan oʻyinli muloqotga kirishyaptimi?",
+          "en": "Does your baby engage in playful interactions with adults?",
+          "ru": "Ваш ребенок играет и взаимодействует со взрослыми?"
+        },
+        "answers": {
+          "A1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "A2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "A3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "V",
+        "question": {
+          "uz": "Bola muloqot vaqtida turli xil yuz ifodalarini oʻzgartirib turli tovushlar chiqaryaptimi?",
+          "en": "Does your baby change facial expressions and make different sounds while communicating?",
+          "ru": "Меняет ли ваш ребенок выражение лица и издает различные звуки во время общения?"
+        },
+        "answers": {
+          "V1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "V2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "V3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "S",
+        "question": {
+          "uz": "Bola faol, ohangli, aniq gʻoʻldirashda turli musiqiy tovushlar chiqara oladimi, masalan alla aytsangiz oʻzicha takrorlaydi?",
+          "en": "Can your baby make clear, melodic babbling sounds, such as repeating a lullaby tune?",
+          "ru": "Издает ли ваш ребенок активные, мелодичные звуки, например, повторяет колыбельную?"
+        },
+        "answers": {
+          "S1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "S2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "S3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "I",
+        "question": {
+          "uz": "Oʻyinchoqlarni oʻynab oʻtirishda muvozanatni bemalol saqlay oladimi?",
+          "en": "Can your baby sit and play with toys while maintaining balance?",
+          "ru": "Может ли ваш ребенок сидеть и играть с игрушками, удерживая равновесие?"
+        },
+        "answers": {
+          "I1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "I2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "I3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "Y",
+        "question": {
+          "uz": "Bola yordam bilan tura oladimi?",
+          "en": "Can your baby stand with support?",
+          "ru": "Может ли ваш ребенок стоять с поддержкой?"
+        },
+        "answers": {
+          "Y1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "Y2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "Y3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "K",
+        "question": {
+          "uz": "Bola yordam bilan qadam tashlayaptimi?",
+          "en": "Can your baby take steps with support?",
+          "ru": "Может ли ваш ребенок делать шаги с поддержкой?"
+        },
+        "answers": {
+          "K1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "K2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "K3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "L",
+        "question": {
+          "uz": "Bola berilgan buyruqlarni bajaryaptimi, masalan: toʻpni olib ber?",
+          "en": "Does your baby follow simple commands, such as 'bring the ball'?",
+          "ru": "Выполняет ли ваш ребенок простые команды, например, 'принеси мяч'?"
+        },
+        "answers": {
+          "L1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "L2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "L3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "M",
+        "question": {
+          "uz": "Bola yashirib qoʻyilgan oʻyinchoqni topishga urinyaptimi?",
+          "en": "Does your baby try to find a hidden toy?",
+          "ru": "Пытается ли ваш ребенок найти спрятанную игрушку?"
+        },
+        "answers": {
+          "M1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "M2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "M3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "N",
+        "question": {
+          "uz": "Mayda buyumlarni ikki barmogʻi yordamida ushlay oladimi?",
+          "en": "Can your baby pick up small objects using two fingers?",
+          "ru": "Может ли ваш ребенок брать мелкие предметы двумя пальцами?"
+        },
+        "answers": {
+          "N1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "N2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "N3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "O",
+        "question": {
+          "uz": "Kattalar aytgan boʻgʻinli soʻzlarni takrorlaydimi?",
+          "en": "Does your baby repeat simple syllabic words said by adults?",
+          "ru": "Повторяет ли ваш ребенок простые слоги, сказанные взрослыми?"
+        },
+        "answers": {
+          "O1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "O2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "O3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "P",
+        "question": {
+          "uz": "Tuvakda bemalol oʻtiradimi?",
+          "en": "Can your baby sit comfortably on a potty?",
+          "ru": "Может ли ваш ребенок спокойно сидеть на горшке?"
+        },
+        "answers": {
+          "P1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "P2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "P3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "R",
+        "question": {
+          "uz": "Mustaqil piyoladan choy ichadimi?",
+          "en": "Can your baby drink from a cup independently?",
+          "ru": "Может ли ваш ребенок самостоятельно пить из чашки?"
+        },
+        "answers": {
+          "R1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "R2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "R3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      }
+    ],
+    "evaluation": [
+      {
+        "min_score": 31,
+        "max_score": 36,
+        "result": {
+          "uz": "Sizning bolangizda psixomotor muammolar kuzatilmadi. Bolani yaxshilab parvarishlashda davom eting, bolada qaysidir muammolarni sezsangiz darhol pediatrga uchrang.",
+          "en": "Your baby has no detected psychomotor issues. Continue providing proper care. If you notice any concerns, consult a pediatrician immediately.",
+          "ru": "У вашего ребенка нет выявленных психомоторных проблем. Продолжайте обеспечивать надлежащий уход. Если заметите какие-либо проблемы, немедленно обратитесь к педиатру."
+        }
+      },
+      {
+        "min_score": 20,
+        "max_score": 30,
+        "result": {
+          "uz": "Sizning bolangizda turli psixomotor muammolar kuzatilmoqda, zudlik bilan pediatrga uchrang.",
+          "en": "Your baby shows signs of psychomotor issues. Consult a pediatrician immediately.",
+          "ru": "У вашего ребенка наблюдаются различные психомоторные проблемы. Немедленно обратитесь к педиатру."
+        }
+      },
+      {
+        "min_score": 0,
+        "max_score": 19,
+        "result": {
+          "uz": "Sizning bolangizda jiddiy bosh miyaga aloqador muammolar kuzatilmoqda, zudlik bilan pediatrga va bolalar nevropatologiga uchrang.",
+          "en": "Your baby has serious brain-related issues. Consult a pediatrician and a pediatric neurologist immediately.",
+          "ru": "У вашего ребенка наблюдаются серьезные проблемы, связанные с головным мозгом. Немедленно обратитесь к педиатру и детскому неврологу."
+        }
+      }
+    ]
+  },
+    {
+    "month": 10,
+    "questions": [
+      {
+        "id": "A",
+        "question": {
+          "uz": "Turli xil holatlarda noroziligini namoyon qila oladimi?",
+          "en": "Can your baby express dissatisfaction in different situations?",
+          "ru": "Может ли ваш ребенок выражать недовольство в различных ситуациях?"
+        },
+        "answers": {
+          "A1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "A2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "A3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "V",
+        "question": {
+          "uz": "Xojatga chiqishini turli imo ishoralar bilan bildira oladimi?",
+          "en": "Can your baby indicate their need to use the toilet through gestures?",
+          "ru": "Может ли ваш ребенок сообщать о своих потребностях в туалет с помощью жестов?"
+        },
+        "answers": {
+          "V1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "V2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "V3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "S",
+        "question": {
+          "uz": "Sizning bolangiz kattalar bilan oʻyinli muloqotga kirishyaptimi?",
+          "en": "Does your baby engage in playful communication with adults?",
+          "ru": "Общается ли ваш ребенок с взрослыми в игровой форме?"
+        },
+        "answers": {
+          "S1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "S2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "S3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "D",
+        "question": {
+          "uz": "Bola muloqot vaqtida turli xil yuz ifodalarini oʻzgartirib turli tovushlar chiqaryaptimi?",
+          "en": "Does your baby change facial expressions and make different sounds while communicating?",
+          "ru": "Меняет ли ваш ребенок выражение лица и издает различные звуки во время общения?"
+        },
+        "answers": {
+          "D1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "D2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "D3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "I",
+        "question": {
+          "uz": "Musiqaga oʻyinga tushadimi?",
+          "en": "Does your baby react to music by dancing or moving rhythmically?",
+          "ru": "Реагирует ли ваш ребенок на музыку, танцуя или ритмично двигаясь?"
+        },
+        "answers": {
+          "I1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "I2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "I3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "Y",
+        "question": {
+          "uz": "Kattalar aytgan boʻgʻinli soʻzlarni takrorlaydimi?",
+          "en": "Does your baby repeat simple syllabic words said by adults?",
+          "ru": "Повторяет ли ваш ребенок простые слоги, сказанные взрослыми?"
+        },
+        "answers": {
+          "Y1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "Y2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "Y3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "K",
+        "question": {
+          "uz": "Bola faol, ohangli, aniq gʻoʻldirashda turli musiqiy  tovushlar chiqara oladimi, masalan alla aytsangiz oʻzicha takrorlaydi?",
+          "en": "Does your baby make musical sounds while babbling, for example, repeating a lullaby?",
+          "ru": "Издает ли ваш ребенок музыкальные звуки во время гуления, например, повторяет колыбельную?"
+        },
+        "answers": {
+          "K1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "K2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "K3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+          {
+        "id": "L",
+        "question": {
+          "uz": "Bola oʻzi mustaqil tura oladimi?",
+          "en": "Can your baby stand independently?",
+          "ru": "Может ли ваш ребенок стоять самостоятельно?"
+        },
+        "answers": {
+          "L1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "L2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "L3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "M",
+        "question": {
+          "uz": "Bola bir qoʻli bilan kattalarni ushlab qadam tashlayaptimi?",
+          "en": "Does your baby walk while holding onto an adult's hand?",
+          "ru": "Ходит ли ваш ребенок, держась за руку взрослого?"
+        },
+        "answers": {
+          "M1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "M2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "M3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "N",
+        "question": {
+          "uz": "Bola berilgan buyruqlarni bajaryaptimi, masalan: toʻpni olib ber?",
+          "en": "Does your baby follow simple commands, such as bringing a ball?",
+          "ru": "Выполняет ли ваш ребенок простые команды, например, приносит мяч?"
+        },
+        "answers": {
+          "N1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "N2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "N3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "O",
+        "question": {
+          "uz": "Bola qoʻllari bilan “xayr”, “assalom” kabi ishoralarni biladimi?",
+          "en": "Does your baby know how to wave for 'goodbye' or greet with 'hello'?",
+          "ru": "Знает ли ваш ребенок жесты, такие как 'пока' или 'привет'?"
+        },
+        "answers": {
+          "O1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "O2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "O3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "P",
+        "question": {
+          "uz": "Mayda buyumlarni ikki barmogʻi yordamida ushlay oladimi?",
+          "en": "Can your baby pick up small objects using two fingers?",
+          "ru": "Может ли ваш ребенок поднимать мелкие предметы двумя пальцами?"
+        },
+        "answers": {
+          "P1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "P2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "P3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "R",
+        "question": {
+          "uz": "Bola oʻyinchoqlarning teshigiga qoʻlini suqib oʻynaydimi?",
+          "en": "Does your baby play by inserting their hand into holes in toys?",
+          "ru": "Играет ли ваш ребенок, вставляя руку в отверстия игрушек?"
+        },
+        "answers": {
+          "R1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "R2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "R3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "S1",
+        "question": {
+          "uz": "Bola kattalarning yoki oʻzining tana a'zolarini koʻrsata oladimi?",
+          "en": "Can your baby point to their own or others' body parts?",
+          "ru": "Может ли ваш ребенок показывать части тела у себя или у других?"
+        },
+        "answers": {
+          "S1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "S2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "S3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "T",
+        "question": {
+          "uz": "Tuvakda bemalol oʻtiradimi?",
+          "en": "Can your baby sit comfortably on a potty?",
+          "ru": "Может ли ваш ребенок спокойно сидеть на горшке?"
+        },
+        "answers": {
+          "T1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "T2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "T3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "U",
+        "question": {
+          "uz": "Mustaqil piyoladan choy ichadimi?",
+          "en": "Does your baby drink from a cup independently?",
+          "ru": "Пьет ли ваш ребенок из чашки самостоятельно?"
+        },
+        "answers": {
+          "U1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "U2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "U3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      }
+    ],
+    "evaluation": [
+      {
+      "min_score": 40,
+      "max_score": 48,
+      "result": {
+        "uz": "Sizning bolangizda psixomotor muammolar kuzatilmadi. Bolani yaxshilab parvarishlashda davom eting, bolada qaysidir muammolarni sezsangiz darhol pediatrga uchrang.",
+        "en": "Your baby shows no psychomotor issues. Continue providing good care, and consult a pediatrician if you notice any problems.",
+        "ru": "У вашего ребенка нет признаков психомоторных проблем. Продолжайте заботиться о нем, и если заметите какие-либо отклонения, обратитесь к педиатру."
+        }
+      },
+      {
+      "min_score": 20,
+      "max_score": 39,
+      "result": {
+        "uz": "Sizning bolangizda turli psixomotor muammolar kuzatilmoqda, zudlik bilan pediatrga uchrang.",
+        "en": "Your baby has some psychomotor issues. Consult a pediatrician immediately.",
+        "ru": "У вашего ребенка наблюдаются некоторые психомоторные проблемы. Срочно обратитесь к педиатру."
+        }
+      },
+      {
+      "min_score": 0,
+      "max_score": 19,
+      "result": {
+        "uz": "Sizning bolangizda jiddiy bosh miyaga aloqador muammolar kuzatilmoqda, zudlik bilan pediatrga va bolalar nevropatologiga uchrang.",
+        "en": "Your baby has serious brain-related issues. Consult a pediatrician and a pediatric neurologist immediately.",
+        "ru": "У вашего ребенка наблюдаются серьезные проблемы, связанные с головным мозгом. Немедленно обратитесь к педиатру и детскому неврологу."
+        }
+      }
+    ]
+  },
+    {
+    "month": 11,
+    "questions": [
+      {
+        "id": "A",
+        "question": {
+          "uz": "Bola “tegma” yoki “mumkin emas” degan soʻzlarni eshitsa harakatini toʻxtatadimi?",
+          "en": "Does the baby stop their movement when hearing 'don't touch' or 'not allowed'?",
+          "ru": "Останавливает ли ребенок свои движения, услышав 'не трогай' или 'нельзя'?"
+        },
+
+        "answers": {
+          "A1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "A2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "A3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "B",
+        "question": {
+          "uz": "Bola atrofdagilar bilan tanlab muloqot qiladimi? (Masalan, tanishlar bilan)",
+          "en": "Does the baby selectively communicate with people? (e.g., only with familiar ones)",
+          "ru": "Общается ли ребенок избирательно с окружающими? (например, только с знакомыми)"
+        },
+        "answers": {
+          "B1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "B2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "B3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "V",
+        "question": {
+          "uz": "Ba'zi bir buyumlarning nomidan taniydimi?",
+          "en": "Does the baby recognize the names of some objects?",
+          "ru": "Ребенок узнает названия некоторых предметов?"
+        },
+        "answers": {
+          "V1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "V2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "V3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "G",
+        "question": {
+          "uz": "Aniq, tiniq 2 boʻgʻinli soʻzlarni aytadimi? (Masalan: da-da, o-pa, a-ka)",
+          "en": "Does the baby say clear two-syllable words? (e.g., da-da, o-pa, a-ka)",
+          "ru": "Произносит ли ребенок четкие двусложные слова? (например, да-да, о-па, а-ка)"
+        },
+        "answers": {
+          "G1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "G2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "G3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "D",
+        "question": {
+          "uz": "Mustaqil oʻtirib yana tura oladimi?",
+          "en": "Can the baby sit independently and then stand up again?",
+          "ru": "Может ли ребенок самостоятельно сесть и снова встать?"
+        },
+        "answers": {
+          "D1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "D2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "D3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "E",
+        "question": {
+          "uz": "Oʻzi mustaqil tik tura oladimi?",
+          "en": "Can the baby stand up independently?",
+          "ru": "Может ли ребенок самостоятельно встать?"
+        },
+        "answers": {
+          "E1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "E2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "E3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "J",
+        "question": {
+          "uz": "Kattalar yordami bilan bir qoʻlni ushlab yuradimi?",
+          "en": "Does the baby walk while holding an adult's hand?",
+          "ru": "Ходит ли ребенок, держась за руку взрослого?"
+        },
+        "answers": {
+          "J1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "J2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "J3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "I",
+        "question": {
+          "uz": "Kattalar yordamisiz bir ikki qadam yura oladimi?",
+          "en": "Can the baby take one or two steps without support?",
+          "ru": "Может ли ребенок сделать один или два шага без поддержки?"
+        },
+        "answers": {
+          "I1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "I2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "I3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "Y",
+        "question": {
+          "uz": "Krovatidan oʻyinchoqlarni pastga irgʻitadimi?",
+          "en": "Does the baby throw toys down from their crib?",
+          "ru": "Ребенок бросает игрушки вниз с кроватки?"
+        },
+        "answers": {
+          "Y1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "Y2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "Y3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "K",
+        "question": {
+          "uz": "Mayda buyumlarni ikki barmogʻi yordamida ushlay oladimi?",
+          "en": "Can the baby pick up small objects using two fingers?",
+          "ru": "Может ли ребенок удерживать мелкие предметы двумя пальцами?"
+        },
+        "answers": {
+          "K1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "K2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "K3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "L",
+        "question": {
+          "uz": "Bola oʻyinchoqlarning teshigiga qoʻlini suqib oʻynaydimi?",
+          "en": "Does the baby put their hand into toy holes while playing?",
+          "ru": "Просовывает ли ребенок руку в отверстия игрушек, играя?"
+        },
+        "answers": {
+          "L1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "L2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "L3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "M",
+        "question": {
+          "uz": "Bola kattalarning yoki oʻzining tana a'zolarini koʻrsata oladimi?",
+          "en": "Can the baby point to their own or others' body parts?",
+          "ru": "Может ли ребенок показывать на части своего тела или тела других людей?"
+        },
+        "answers": {
+          "M1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "M2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "M3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "N",
+        "question": {
+          "uz": "Bola kitobni varaqlashi yoki mashinani gʻildiratib oʻynaydimi?",
+          "en": "Does the baby turn book pages or roll a toy car?",
+          "ru": "Перелистывает ли ребенок страницы книги или катает игрушечную машинку?"
+        },
+        "answers": {
+          "N1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "N2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "N3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "O",
+        "question": {
+          "uz": "Tuvakda bemalol oʻtiradimi?",
+          "en": "Can the baby sit comfortably on a potty?",
+          "ru": "Может ли ребенок спокойно сидеть на горшке?"
+        },
+        "answers": {
+          "O1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "O2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "O3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "P",
+        "question": {
+          "uz": "Mustaqil piyoladan choy ichadimi?",
+          "en": "Can the baby drink from a cup independently?",
+          "ru": "Может ли ребенок самостоятельно пить из чашки?"
+        },
+        "answers": {
+          "P1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "P2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "P3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      }
+    ],
+    "evaluation": [
+      {
+        "min_score": 40,
+        "max_score": 45,
+        "result": {
+        "uz": "Sizning bolangizda psixomotor muammolar kuzatilmadi. Bolani yaxshilab parvarishlashda davom eting, bolada qaysidir muammolarni sezsangiz darhol pediatrga uchrang.",
+        "en": "Your baby shows no psychomotor issues. Continue providing good care, and consult a pediatrician if you notice any problems.",
+        "ru": "У вашего ребенка нет признаков психомоторных проблем. Продолжайте заботиться о нем, и если заметите какие-либо отклонения, обратитесь к педиатру."
+        }
+      },
+      {
+        "min_score": 20,
+        "max_score": 39,
+        "result": {
+        "uz": "Sizning bolangizda turli psixomotor muammolar kuzatilmoqda, zudlik bilan pediatrga uchrang.",
+        "en": "Your baby has some psychomotor issues. Consult a pediatrician immediately.",
+        "ru": "У вашего ребенка наблюдаются некоторые психомоторные проблемы. Срочно обратитесь к педиатру."
+        }
+      },
+      {
+        "min_score": 0,
+        "max_score": 19,
+        "result": {
+        "uz": "Sizning bolangizda jiddiy bosh miyaga aloqador muammolar kuzatilmoqda, zudlik bilan pediatrga va bolalar nevropatologiga uchrang.",
+        "en": "Your baby has serious brain-related issues. Consult a pediatrician and a pediatric neurologist immediately.",
+        "ru": "У вашего ребенка наблюдаются серьезные проблемы, связанные с головным мозгом. Немедленно обратитесь к педиатру и детскому неврологу."
+        }
+      }
+    ]
+  },
+    {
+
+    "month": 12,
+    "questions": [
+      {
+        "id": "A",
+        "question": {
+          "uz": "Bola 'tegma' yoki 'mumkin emas' degan soʻzlarni eshitsa harakatini toʻxtatadimi?",
+          "en": "Does the baby stop their movement when hearing 'don't touch' or 'not allowed'?",
+          "ru": "Останавливает ли ребенок свои движения, услышав 'не трогай' или 'нельзя'?"
+        },
+        "answers": {
+          "A1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "A2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "A3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "B",
+        "question": {
+          "uz": "Bola atrofdagilar bilan tanlab muloqot qiladimi? (Masalan, tanishlar bilan)",
+          "en": "Does the baby selectively communicate with people? (e.g., only with familiar ones)",
+          "ru": "Общается ли ребенок избирательно с окружающими? (например, только с знакомыми)"
+        },
+        "answers": {
+          "B1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "B2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "B3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "V",
+        "question": {
+          "uz": "Ba'zi bir buyumlarning nomidan taniydimi?",
+          "en": "Does the baby recognize the names of some objects?",
+          "ru": "Ребенок узнает названия некоторых предметов?"
+        },
+        "answers": {
+          "V1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "V2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "V3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "G",
+        "question": {
+          "uz": "Aniq, tiniq 2 boʻgʻinli soʻzlarni aytadimi? (Masalan: da-da, o-pa, a-ka, ketdi, 5-6 ta boʻgʻinli soʻz)",
+          "en": "Does the baby say clear two-syllable words? (e.g., da-da, o-pa, a-ka, ketdi, 5-6 syllable words)",
+          "ru": "Произносит ли ребенок четкие двусложные слова? (например, да-да, о-па, а-ка, кетди, 5-6-сложные слова)"
+        },
+        "answers": {
+          "G1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "G2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "G3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "D",
+        "question": {
+          "uz": "Bola gapirsa insonning yuziga qarab gapiradimi?",
+          "en": "Does the baby look at a person's face while speaking?",
+          "ru": "Смотрит ли ребенок в лицо человека во время разговора?"
+        },
+        "answers": {
+          "D1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "D2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "D3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "E",
+        "question": {
+          "uz": "Kattalar topshirigʻini bajaradimi? (Masalan: olib kel, solib qoʻy)",
+          "en": "Does the baby follow simple adult instructions? (e.g., 'bring it', 'put it down')",
+          "ru": "Выполняет ли ребенок простые указания взрослых? (например, 'принеси', 'положи')"
+        
+        },"answers": {
+          "E1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "E2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "E3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "Yo",
+        "question": {
+          "uz": "Fotografiyadagi oʻz yaqinlarini taniydimi? (Masalan: 'Onang qani?' degan soʻroqqa javob beradi)",
+          "en": "Does the baby recognize close relatives in a photo? (e.g., responds when asked 'Where is your mom?')",
+          "ru": "Распознает ли ребенок близких на фотографии? (например, отвечает на вопрос 'Где твоя мама?')"
+        },
+        "answers": {
+          "Yo1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "Yo2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "Yo3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "Z",
+        "question": {
+          "uz": "Kitobdagi rasmlardan narsalarni taniydimi?",
+          "en": "Can the baby recognize objects in book illustrations?",
+          "ru": "Распознает ли ребенок предметы на картинках в книге?"
+        },
+        "answers": {
+          "Z1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "Z2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "Z3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "J",
+        "question": {
+          "uz": "Oʻzi mustaqil uzoq vaqt oʻyinchoqlarini oʻynab oʻtiradimi? (Masalan: qoʻgʻirchoqni uxlatadi, mashinani yurgizadi, xalqachaning teshigi katta boʻlsa sterjenga kiritadi)",
+          "en": "Can the baby play with toys independently for a long time? (e.g., puts a doll to sleep, moves a toy car, inserts a ring into a peg if the hole is large enough)",
+          "ru": "Может ли ребенок долго играть с игрушками самостоятельно? (например, укладывает куклу спать, катает машинку, вставляет кольцо в штырь, если отверстие большое)"
+        },
+        "answers": {
+          "J1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "J2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "J3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "I",
+        "question": {
+          "uz": "Piyolani stoldan olib suv icha oladimi?",
+          "en": "Can the baby pick up a cup from the table and drink from it?",
+          "ru": "Может ли ребенок взять чашку со стола и пить из нее?"
+        },
+        "answers": {
+          "I1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "I2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "I3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "Y",
+        "question": {
+          "uz": "Bemalol tayanchsiz yura oladimi?",
+          "en": "Can the baby walk freely without support?",
+          "ru": "Может ли ребенок свободно ходить без опоры?"
+        },
+        "answers": {
+          "Y1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "Y2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "Y3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "K",
+        "question": {
+          "uz": "Mustaqil oʻtirib yana tura oladimi?",
+          "en": "Can the baby sit down and stand up again independently?",
+          "ru": "Может ли ребенок самостоятельно сесть и снова встать?"
+        },
+        "answers": {
+          "K1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "K2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "K3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "L",
+        "question": {
+          "uz": "Bir buyumni ikkinchi buyumning ustiga qoʻyadimi?",
+          "en": "Can the baby place one object on top of another?",
+          "ru": "Может ли ребенок ставить один предмет на другой?"
+        },
+        "answers": {
+          "L1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "L2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "L3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      },
+      {
+        "id": "M",
+        "question": {
+          "uz": "Qutini ochishni va yopishni biladimi?",
+          "en": "Can the baby open and close a box?",
+          "ru": "Может ли ребенок открывать и закрывать коробку?"
+        },
+        "answers": {
+          "M1": { "uz": "Xa", "en": "Yes", "ru": "Да", "score": 1 },
+          "M2": { "uz": "Ba'zan", "en": "Sometimes", "ru": "Иногда", "score": 2 },
+          "M3": { "uz": "Yoʻq", "en": "No", "ru": "Нет", "score": 3 }
+        }
+      }
+    ],
+    "evaluation": [
+      {
+        "min_score": 38,
+        "max_score": 42,
+        "result": {
+          "uz": "Sizning bolangizda psixomotor muammolar kuzatilmadi. Bolani yaxshilab parvarishlashda davom eting, bolada qaysidir muammolarni sezsangiz darhol pediatrga uchrang.",
+          "en": "Your baby shows no psychomotor issues. Continue providing good care, and consult a pediatrician if you notice any problems.",
+          "ru": "У вашего ребенка нет признаков психомоторных проблем. Продолжайте заботиться о нем, и если заметите какие-либо отклонения, обратитесь к педиатру."
+        }
+      },
+      {
+        "min_score": 20,
+        "max_score": 37,
+        "result": {
+          "uz": "Sizning bolangizda turli psixomotor muammolar kuzatilmoqda, zudlik bilan pediatrga uchrang.",
+          "en": "Your baby has some psychomotor issues. Consult a pediatrician immediately.",
+          "ru": "У вашего ребенка наблюдаются некоторые психомоторные проблемы. Срочно обратитесь к педиатру."
+        }
+      },
+      {
+        "min_score": 0,
+        "max_score": 19,
+        "result": {
+          "uz": "Sizning bolangizda jiddiy bosh miyaga aloqador muammolar kuzatilmoqda, zudlik bilan pediatrga va bolalar nevropatologiga uchrang.",
+          "en": "Your baby has serious brain-related issues. Consult a pediatrician and a pediatric neurologist immediately.",
+          "ru": "У вашего ребенка наблюдаются серьезные проблемы, связанные с головным мозгом. Немедленно обратитесь к педиатру и детскому неврологу."
+        }
+      }
+    ]
+  }
+  
+  ]
