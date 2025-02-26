@@ -1,14 +1,14 @@
 {
   "menu": {
     "start_test": {
-      "uzbek": "Testni Boshlash",
-      "english": "Start Test",
-      "russian": "Начать тест"
+      "uzbek": "\uD83C\uDFAF Testni Boshlash",
+      "english": "\uD83C\uDFAF Start Test",
+      "russian": "\uD83C\uDFAF Начать тест"
     },
     "history": {
-      "uzbek": "Tarix",
-      "english": "History",
-      "russian": "История"
+      "uzbek": "\uD83D\uDCDC Tarix",
+      "english": "\uD83D\uDCDC History",
+      "russian": "\uD83D\uDCDC История"
     }
   },
   "relationship": {
@@ -28,9 +28,9 @@
       "russian": "Другое"
     },
     "back_to_main": {
-      "uzbek": "Bosh sahifaga qaytish",
-      "english": "Back to Main",
-      "russian": "Вернуться на главную"
+      "uzbek": "🏠 Bosh Sahifa",
+      "english": "🏠 Main Page",
+      "russian": "🏠 Домашняя Страница"
     }
   },
   "months": {
@@ -95,14 +95,14 @@
       "russian": "12 месяцев"
     },
     "back": {
-      "uzbek": "Ortga",
-      "english": "Back",
-      "russian": "Назад"
+      "uzbek": "\uD83D\uDD19 Ortga",
+      "english": "\uD83D\uDD19 Back",
+      "russian": "\uD83D\uDD19 Назад"
     },
     "back_to_main": {
-      "uzbek": "Bosh sahifaga qaytish",
-      "english": "Back to Main",
-      "russian": "Вернуться на главную"
+      "uzbek": "🏠 Bosh Sahifa",
+      "english": "🏠 Main Page",
+      "russian": "🏠 Домашняя Страница"
     }
   }
 }

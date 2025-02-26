@@ -1,0 +1,26 @@
+{
+  "save_result" : {
+    "retake_test" : {
+      "uz" : "🔁 Testni qayta ishlash",
+      "en" : "\uD83D\uDD01 Retake the test",
+      "ru" : "🔁 Пересдать тест"
+    },
+    "confirm" : {
+      "uz" : "✅ Tasdiqlash",
+      "en" : "✅ Confirm",
+      "ru" : "✅ Подтвердить"
+    },
+    "back_to_main": {
+      "uz": "🏠 Bosh Sahifa",
+      "en": "🏠 Main Page",
+      "ru": "🏠 Домашняя Страница"
+    }
+  },
+  "testing" : {
+    "stop_test" : {
+      "uz" : "🛑 Testni to'xtatish!",
+      "en" : "🛑 Stop Test!",
+      "ru" : "🛑 Остановить Тест!"
+    }
+  }
+}

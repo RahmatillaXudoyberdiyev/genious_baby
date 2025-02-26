@@ -4,17 +4,25 @@ from aiogram.fsm.context import FSMContext
 from user_side.states.state import ProcessState
 
 # Aydos Bekbergenov
-async def start_command_answer(message : types.Message, bot : Bot, state : FSMContext):
+async def start_command_answer(message : types.Message, state : FSMContext):
+    await state.clear()
     await message.answer(text = "Xush kelibsiz foydalanuvchi!", reply_markup=get_languages_keyboard())
     await state.set_state(ProcessState.user_start_command)
 
-async def language_command_answer(message : types.Message, bot : Bot, state : FSMContext):
+async def language_command_answer(message : types.Message, state : FSMContext):
     data1 = await state.get_data()
 
-    await state.update_data(language = message.text[3:].lower())
-    if message.text == '🇷🇺 Ru': language = 'russian'
-    elif message.text == '🇺🇸 En': language = 'english'
-    elif message.text == '🇺🇿 Uz': language = 'uzbek'
+
+
+    if message.text == '🇷🇺 Ru':
+        language = 'russian'
+        await state.update_data(language=message.text[3:].lower())
+    elif message.text == '🇺🇸 En':
+        language = 'english'
+        await state.update_data(language=message.text[3:].lower())
+    elif message.text == '🇺🇿 Uz':
+        await state.update_data(language = message.text[3:].lower())
+        language = 'uzbek'
     else:
         if curr_language:=data1.get("current_language"): language = curr_language 
         else: language = 'uzbek'

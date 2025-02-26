@@ -1,4 +1,6 @@
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from aiogram.utils.keyboard import ReplyKeyboardBuilder, KeyboardButton
+
 
 def generate_options(question_id, answers, language):
     # buttons = []
@@ -12,6 +14,3 @@ def generate_options(question_id, answers, language):
 
     return InlineKeyboardMarkup(inline_keyboard=keyboard)
 
-
-# buttons = ["Tugma 1", "Tugma 2", "Tugma 3", "Tugma 4"]
-# keyboard = [[InlineKeyboardButton(text, callback_data=text)] for text in buttons]
