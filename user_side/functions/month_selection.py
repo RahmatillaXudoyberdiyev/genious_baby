@@ -3,12 +3,15 @@ from user_side.keyboards.keyboard import get_months_keyboard, get_relationship_k
 from aiogram.fsm.context import FSMContext
 from user_side.states.state import ProcessState
 from user_side.translations.translation import translate_into
-
+import json
 RELATIONSHIP_OPTIONS = {
     "Otasi", "Father", "Отец",          
     "Onasi", "Mother", "Мать",         
     "Boshqa", "Other", "Другое"        
 }
+
+with open("./user_side/translations/keyboard_translations.json", "r", encoding="utf-8") as file:
+    translation_data = json.load(file)
 
 # Rahmatilla Xudoyberdiyev
 async def choosing_month(message: types.Message, state: FSMContext):
@@ -19,7 +22,14 @@ async def choosing_month(message: types.Message, state: FSMContext):
         if data.get("user_relation_to_baby"):
             relation_text = data['user_relation_to_baby']
         if relation_text in RELATIONSHIP_OPTIONS:
-            await state.update_data(user_relation_to_baby=relation_text)
+            relation = ""
+            if relation_text in ["Otasi", "Father", "Отец"]:
+                relation = "Ota"
+            elif relation_text == ["Onasi", "Mother", "Мать"]:
+                relation = "Ona"
+            else:
+                relation = "Boshqa"
+            await state.update_data(user_relation_to_baby=relation_text, relation = relation)
             prompt_text = translate_into(path, data, "choose_month_prompt")
             await message.answer(
                 text=prompt_text,

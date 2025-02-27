@@ -1,9 +1,12 @@
+from asyncio.subprocess import Process
+
 from aiogram import Router
 from aiogram.filters import Command
 
-from user_side.functions.region_selection import user_get_region_answer, try_pass_exam_again_answer, \
-	stop_test_action_answer
-from user_side.functions.start_section import start_command_answer, language_command_answer
+from user_side.functions.region_selection import user_get_district_answer, try_pass_exam_again_answer, \
+    stop_test_action_answer, confirm_action_answer, confirm_action_answer, ask_save_result_answer, \
+    go_back_function_answer
+from user_side.functions.start_section import start_command_answer, language_command_answer, user_history_answer
 from user_side.functions.user_relation_to_baby import relationship_to_baby
 from user_side.functions.month_selection import choosing_month
 from user_side.functions.quiz_section import start_quiz, check_answer
@@ -24,6 +27,7 @@ STOP_TEST_VARIANTS = {
       "🛑 Stop Test!",
       "🛑 Остановить Тест!"
     }
+HISTORY_VARIANTS = {"📜 Tarix", "📜 History", "📜 История"}
 
 MONTH_VARIANTS = set()
 for variant in MONTH_VARIANTS_POSTFIX:
@@ -34,6 +38,7 @@ router.message.register(start_command_answer, Command('start'), ~F.from_user.id.
 router.message.register(start_command_answer, Command('lang'), ~F.from_user.id.in_(ADMIN_IDS))
 router.message.register(language_command_answer, F.text.in_(BACK_TO_MAIN_VARIANTS))
 router.message.register(language_command_answer, ProcessState.user_start_command)
+router.message.register(user_history_answer, ProcessState.user_language_chose_menu, F.text.in_(HISTORY_VARIANTS))
 router.message.register(relationship_to_baby, F.text.in_(START_TEST_VARIANTS), ProcessState.user_language_chose_menu)
 router.message.register(choosing_month, ProcessState.user_relation_to_baby)
 router.message.register(relationship_to_baby, F.text.in_(BACK_VARIANTS), ProcessState.user_choose_month)
@@ -41,5 +46,10 @@ router.message.register(start_quiz, F.text.in_(MONTH_VARIANTS), ProcessState.use
 
 router.message.register(stop_test_action_answer, ProcessState.user_choose_month, F.text.in_(STOP_TEST_VARIANTS))
 router.callback_query.register(check_answer, ProcessState.user_choose_month)
-# router.message.register(user_get_region_answer, ProcessState.user_choose_region)
-router.message.register(try_pass_exam_again_answer, ProcessState.user_choose_month, F.text.in_(RETAKE_THE_TEST_VARIANTS))
+
+router.message.register(go_back_function_answer, ProcessState.user_choose_district, F.text.in_(BACK_VARIANTS))
+router.message.register(go_back_function_answer, ProcessState.user_save_result_menu, F.text.in_(BACK_VARIANTS))
+router.message.register(try_pass_exam_again_answer, ProcessState.user_choose_district, F.text.in_(RETAKE_THE_TEST_VARIANTS))
+router.message.register(confirm_action_answer,ProcessState.user_save_result_menu, F.text.in_(CONFIRM_VARIANTS) )
+router.message.register(user_get_district_answer, ProcessState.user_choose_region)
+router.message.register(ask_save_result_answer, ProcessState.user_choose_district)

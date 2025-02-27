@@ -1,12 +1,12 @@
 import json
 from aiogram import types
 from aiogram.fsm.context import FSMContext
-from numpy.ma.core import resize
-
 from user_side.keyboards.inline_keyboards import generate_options
-from user_side.states.state import ProcessState
 from user_side.keyboards.regions import user_ask_submit_answer_btn, stop_test_answer_btn
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
+from user_side.keyboards.regions import get_regions
+from user_side.states.state import ProcessState
+
 markup = ReplyKeyboardMarkup(
     keyboard=[
         [KeyboardButton(text = "Testni to'xtatish")]
@@ -33,7 +33,7 @@ async def start_quiz(message: types.Message, state: FSMContext):
     chosen_month = int(message.text.split()[0])
     print(chosen_month)
     await state.update_data(chosen_month = chosen_month, score=0, current_index=0)
-    await message.answer("Test boshlandi 🚀.", reply_markup= await stop_test_answer_btn(translation_data, language, 'testing'))
+    await message.answer(translation_data['testing']['start_test'][language], reply_markup= await stop_test_answer_btn(translation_data, language, 'testing'))
     await send_question(message, state)
 
 
@@ -45,7 +45,9 @@ async def send_question(message: types.Message, state: FSMContext):
 
     print(chosen_month)
     print(quiz_data)
-    questions = quiz_data[chosen_month - 1]["questions"][:2]
+    import random
+    questions = quiz_data[chosen_month - 1]["questions"]
+    random.shuffle(questions)
 
     if index >= len(questions): 
         await show_result(message, state)
@@ -53,7 +55,7 @@ async def send_question(message: types.Message, state: FSMContext):
 
     question_data = questions[index]
     question_text = question_data["question"][language]
-    text = f"{question_text}\n(Выберите один ответ)"  
+    text = f"{question_text}\n"
 
     buttons = generate_options(question_data["id"], question_data["answers"], language)
     await state.update_data(message = message)
@@ -79,13 +81,13 @@ async def check_answer(call: types.CallbackQuery, state: FSMContext):
 
 
 async def show_result(message: types.Message, state: FSMContext):
-    # await state.set_state(ProcessState.user_choose_region)
+    await state.set_state(ProcessState.user_choose_region)
     data = await state.get_data()
     score = data["score"]
     chosen_month = data["chosen_month"]
     language : str = data.get("language")
 
-    evaluations = quiz_data[chosen_month]["evaluation"]
+    evaluations = quiz_data[chosen_month - 1]["evaluation"]
 
     result_text = None
     for eval_range in evaluations:
@@ -98,4 +100,7 @@ async def show_result(message: types.Message, state: FSMContext):
     if not result_text:  
         result_text = "Natija topilmadi / Result not found / Результат не найден"
 
-    await message.answer(f"Test yakunlandi!\nJami ball: {score}\n\nNatija: {result_text}", reply_markup=user_ask_submit_answer_btn(translation_data,language, 'save_result'))
+    await state.update_data(result = result_text, score = score)
+    await message.answer(f"{translation_data['testing']['finish_text'][language]} {score}\n\n{translation_data['testing']['finish_result'][language]} {result_text}")
+    await message.answer(translation_data['choosing_region']['select_region'][language], reply_markup = await get_regions(translation_data, data['language']))
+# user_ask_submit_answer_btn(translation_data,language, 'save_result')

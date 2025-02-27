@@ -7,4 +7,5 @@ class ProcessState(StatesGroup):
     user_choose_month = State()
     user_choose_region = State()
     user_choose_district = State()
+    user_save_result_menu = State()
     answering = State()

@@ -5,13 +5,13 @@ import json
 with open("./user_side/data/regions.json", "r", encoding="utf-8") as file:
     data = json.load(file)
 
-async def get_regions():
+async def get_regions(translation_data, lang):
     buttons = ReplyKeyboardBuilder()
     for region in data.keys():
         buttons.button(text = region)
     buttons.adjust(2)
 
-    buttons.row(KeyboardButton(text = "🔙 Ortga"), KeyboardButton(text = "🏠 Bosh Sahifa"))
+    buttons.row(KeyboardButton(text = translation_data['save_result']['back_to_main'][lang]))
 
     buttons = buttons.as_markup()
     buttons.resize_keyboard = True
@@ -24,7 +24,7 @@ def user_ask_submit_answer_btn(data,lang, section):
     buttons = ReplyKeyboardBuilder()
 
     buttons.row(KeyboardButton(text = data[section]['confirm'][lang]), KeyboardButton(text = data[section]['retake_test'][lang]))
-    buttons.row(KeyboardButton(text=data[section]['back_to_main'][lang]))
+    buttons.row(KeyboardButton(text=data[section]['back'][lang]), KeyboardButton(text=data[section]['back_to_main'][lang]))
     buttons = buttons.as_markup()
     buttons.resize_keyboard = True
     return buttons

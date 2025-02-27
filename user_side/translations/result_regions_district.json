@@ -14,6 +14,11 @@
       "uz": "🏠 Bosh Sahifa",
       "en": "🏠 Main Page",
       "ru": "🏠 Домашняя Страница"
+    },
+    "back": {
+      "uz": "\uD83D\uDD19 Ortga",
+      "en": "\uD83D\uDD19 Back",
+      "ru": "\uD83D\uDD19 Назад"
     }
   },
   "testing" : {
@@ -21,6 +26,39 @@
       "uz" : "🛑 Testni to'xtatish!",
       "en" : "🛑 Stop Test!",
       "ru" : "🛑 Остановить Тест!"
+    },
+    "result_info" : {
+    "uz" : "Sizning natijalaringiz muvaffaqiyatli saqlandi!",
+    "en" : "Your results have been successfully saved!",
+    "ru" : "Ваши результаты успешно сохранены!"
+    },
+    "start_test" : {
+    "uz" : "Test boshlandi \uD83D\uDE80.",
+    "ru" : "Тест начался \uD83D\uDE80.",
+    "en" : "The test has started \uD83D\uDE80."
+    },
+    "finish_text" : {
+      "uz" : "Test yakunlandi!\nJami ball:",
+      "en": "The test is completed!\nTotal score:",
+      "ru" : "Тест завершен!\nОбщий балл:"
+    },
+    "finish_result" : {
+      "uz" : "Natija : ",
+      "en" : "Result : ",
+      "ru" : "Результат : "
+    }
+  },
+  "choosing_region" : {
+    "select_region" : {
+      "uz" : "Viloyatlardan birini tanlang!",
+      "en" : ",Select one of the regions!",
+      "ru" : "Выберите одну из областей!"
+    },
+    "select_district" : {
+      "uz" : "Endi tumanni tanlang!",
+      "en" : "Now select the district!",
+      "ru" : "Теперь выберите район!"
     }
   }
+
 }
