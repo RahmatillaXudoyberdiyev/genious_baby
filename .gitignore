@@ -1,5 +1,6 @@
 # Ignore MyToken.py
 config.py
+add_to_sql.py
 
 # Ignore other typical Python artifacts
 *.pyc

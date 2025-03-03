@@ -2,7 +2,7 @@ from aiogram import Bot, types
 from user_side.keyboards.keyboard import get_languages_keyboard, get_menu_keyboard
 from aiogram.fsm.context import FSMContext
 from user_side.states.state import ProcessState
-import mysql.connector
+import pymysql
 from deep_translator import GoogleTranslator
 
 db_config = {
@@ -49,9 +49,9 @@ async def language_command_answer(message : types.Message, state : FSMContext):
 
 async def user_history_answer(message : types.Message, state : FSMContext):
     data = await state.get_data()
-    conn = mysql.connector.connect(**db_config)
+    conn = pymysql.connect(**db_config)
     query = conn.cursor()
-    conn.query_attrs_clear()
+
     query.execute("Select status.name as status, history.time as vaqt, history.answer as result, history.month, district.name, regions.name, history.score from history "
                   "join status on status.id = history.status_id "
                   "join district on district.id = history.district_id "
@@ -63,6 +63,7 @@ async def user_history_answer(message : types.Message, state : FSMContext):
         await message.answer("Siz haqingizda ma'lumotlar topilmadi!")
     else:
         translator = GoogleTranslator(source='uz', target=data['language'])
+        result = list(result)
         result.sort(key = lambda a : a[3])
         for value in result:
             info = (f"Test oluvchi : {value[0]}\n"

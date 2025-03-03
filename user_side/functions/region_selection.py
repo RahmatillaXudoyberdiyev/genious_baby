@@ -11,13 +11,14 @@ import json
 from user_side.functions.user_relation_to_baby import relationship_to_baby
 from user_side.data.users import ids
 from user_side.keyboards.regions import get_regions, user_ask_submit_answer_btn
-import mysql.connector
+import pymysql
 
-conn = mysql.connector.connect(
+
+conn = pymysql.connect(
     host="localhost",  # Agar MySQL serveri boshqa joyda bo'lsa, IP yoki domenni kiriting
     user="root",       # MySQL foydalanuvchi nomi
     password="begzod",  # MySQL paroli
-    database="genius_baby"  # Bazaning nomi
+    database="genius_baby"  # Bazaning nomipip
 )
 
 
@@ -79,6 +80,7 @@ async def go_back_function_answer(message : types.Message, state : FSMContext):
 async def ask_save_result_answer(message : types.Message, state : FSMContext):
     await state.set_state(ProcessState.user_save_result_menu)
     data = await state.get_data()
+
     for value in region_district.values():
         if message.text in value:
             ids[message.from_user.id] = {"score": ['score'], "result": data['result']}
@@ -98,7 +100,7 @@ async def confirm_action_answer(message : types.Message, state : FSMContext):
         query = conn.cursor()
         query.execute("select regions.id, district.id from regions "
                       "join district on district.region_id = regions.id "
-                      "where regions.name = %s and district.name = %s", params=(data['region'], data['district']))
+                      "where regions.name = %s and district.name = %s", (data['region'], data['district']))
         result = query.fetchall()
         print(result)
         region_id = result[0][0]
@@ -126,7 +128,7 @@ async def confirm_action_answer(message : types.Message, state : FSMContext):
             query.execute(
                 "Insert into history(score, month, answer, time, status_id, telegram_id, district_id,region_id) values"
                 "(%s, %s, %s, now(), %s, %s, %s, %s)",
-                params=(data['score'], data['chosen_month'], data['result'], status_id, data['telegram_id'], district_id, region_id))
+                (data['score'], data['chosen_month'], data['result'], status_id, data['telegram_id'], district_id, region_id))
             conn.commit()
             print("Qo'shildi.")
         await message.answer(translation_data['testing']['result_info'][data['language']])
